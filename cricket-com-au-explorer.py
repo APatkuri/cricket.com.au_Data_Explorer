@@ -164,7 +164,7 @@ if(format_type and comp_name and match_name):
             bowler_stats['Eco'] = np.where(bowler_stats['TotalDeliveries'] == 0, 0, ((bowler_stats['RunsConceded'] / bowler_stats['Overs'])))
             # bowler_stats['FalseShot%'] = bowler_stats['FalseShot%'].round(2).astype(str)
             # bowler_stats['RunsConceded'] = bowler_stats['RunsConceded'].round(2).astype(str)
-            bowler_stats = bowler_stats.sort_values(by=["bowlingTeamName", "BowlingType"], ascending=False)
+            bowler_stats = bowler_stats.sort_values(by=["bowlingTeamName", "BowlingType"], inplace=False, ascending=False)
 
             st.dataframe(bowl_team_stats.style.highlight_max(color='green', axis=0, subset=['FalseShots', 'FalseShot%'])
                          .highlight_min(color='green', axis=0, subset=['FalseShotPerDismissial', 'BallsPerFalseShot', 'RunsPerFalseShot', 'S/R', 'Avg', 'Eco'])
