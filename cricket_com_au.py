@@ -38,7 +38,7 @@ def fetch_innings_data(matchid, inning):
 def main_func(matchid, player_dict, team_dict, comp_dict, match_comp_data):
     # Fetch both innings in parallel
     with ThreadPoolExecutor(max_workers=2) as executor:
-        dfs = list(executor.map(partial(fetch_innings_data, matchid), range(1,3)))
+        dfs = list(executor.map(partial(fetch_innings_data, matchid), range(1,5)))
     
     comms_df = pd.concat(dfs, ignore_index=True)
     
