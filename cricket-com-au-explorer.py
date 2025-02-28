@@ -144,6 +144,25 @@ if(format_type and comp_name and match_name):
             # bowl_team_stats['RunsConceded'] = bowl_team_stats['RunsConceded'].round(2).astype(str)
             bowl_team_stats = bowl_team_stats.sort_values(by="inningNumber", ascending=True)
 
+            column_renames = {
+                'FalseShots': 'FS',
+                'FalseShot%': 'FS%',
+                'FalseShotPerDismissial': 'FS/D',
+                'BallsPerFalseShot': 'B/FS',
+                'RunsPerFalseShot': 'R/FS',
+                'RunsConceded': 'Runs',
+                'bowlingTeamName': 'BowlTeam',
+                'BowlingType': 'BowlType',
+                'bowlerPlayerName': 'BowlerName',
+                'inningNumber': 'Inn',
+                'TotalDeliveries': 'Balls'
+                # Add other renames as needed
+            }
+            bowl_team_stats_copy = bowl_team_stats.copy()
+            bowl_team_stats_copy = bowl_team_stats_copy.rename(columns=column_renames)
+
+
+
             bowler_stats = match_bowling_df.groupby(["bowlerPlayerName", "BowlingType", "bowlingTeamName"]).agg(
                 Overs = ('ballNumber', lambda x: calculate_overs(match_bowling_df.loc[x.index])),
                 TotalDeliveries=('ballNumber', 'count'),  # Total balls bowled
@@ -166,12 +185,67 @@ if(format_type and comp_name and match_name):
             # bowler_stats['RunsConceded'] = bowler_stats['RunsConceded'].round(2).astype(str)
             bowler_stats = bowler_stats.sort_values(by=["bowlingTeamName", "BowlingType"], inplace=False, ascending=False)
 
-            st.dataframe(bowl_team_stats.style.highlight_max(color='green', axis=0, subset=['FalseShots', 'FalseShot%'])
-                         .highlight_min(color='green', axis=0, subset=['FalseShotPerDismissial', 'BallsPerFalseShot', 'RunsPerFalseShot', 'S/R', 'Avg', 'Eco'])
-                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FalseShotPerDismissial': '{:.2f}', 'BallsPerFalseShot': '{:.2f}', 'RunsPerFalseShot': '{:.2f}', 'RunsConceded': '{:.2f}', 'FalseShot%': '{:.2f}'}))
-            st.dataframe(bowler_stats.style.highlight_max(color='green', axis=0, subset=['FalseShots', 'FalseShot%'])
-                         .highlight_min(color='green', axis=0, subset=['FalseShotPerDismissial', 'BallsPerFalseShot', 'RunsPerFalseShot', 'S/R', 'Avg', 'Eco'])
-                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FalseShotPerDismissial': '{:.2f}', 'BallsPerFalseShot': '{:.2f}', 'RunsPerFalseShot': '{:.2f}', 'RunsConceded': '{:.2f}', 'FalseShot%': '{:.2f}'}))
+            bowl_stats_copy = bowler_stats.copy()
+            bowl_stats_copy = bowl_stats_copy.rename(columns=column_renames)
+
+            st.subheader("Team Metrics")
+            st.dataframe(bowl_team_stats_copy.style.highlight_max(color='green', axis=0, subset=['FS', 'FS%'])
+                         .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
+                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.2f}', 'FS%': '{:.2f}'}))
+            st.subheader("Bowler Wise Metrics")
+            st.dataframe(bowl_stats_copy.style.highlight_max(color='green', axis=0, subset=['FS', 'FS%'])
+                         .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
+                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.2f}', 'FS%': '{:.2f}'}))
+            
+            st.text("FS: False Shot, FS%: False Shot %")
+            st.text("R/FS: Runs Conceded Per False Sho, B/FS: Balls Per False Shott, FS/D: False Shots Per Dismissal")
+            st.text("S/R: Balls Per Dismissal, Avg: Runs Per Dismissal, Eco: Economy")
+
+            # column_renames = {
+            #     'FalseShots': 'FS',
+            #     'FalseShot%': 'FS%',
+            #     'FalseShotPerDismissial': 'FS/D',
+            #     'BallsPerFalseShot': 'B/FS',
+            #     'RunsPerFalseShot': 'R/FS',
+            #     'RunsConceded': 'Runs',
+            #     'bowlingTeamName': 'BowlTeam',
+            #     'BowlingType': 'BowlType',
+            #     'bowlerPlayerName': 'BowlerName',
+            #     'inningNumber': 'Inns',
+            #     'TotalDeliveries': 'Balls'
+            #     # Add other renames as needed
+            # }
+            # bowler_stats = bowler_stats.rename(columns=column_renames)
+
+            # col_groups = {
+            #     "Performance Metrics": ["BowlerName", "BowlType", "BowlTeam","Overs", "Runs", "Wickets", "Eco", "S/R", "Avg"],
+            #     "False Shot Analysis": ["BowlerName", "BowlType", "BowlTeam", "Balls", "FS", "FS%", "B/FS", "R/FS", "FS/D"]
+            # }
+
+            # # Display each group with the same styling
+            # for group_name, columns in col_groups.items():
+            #     st.subheader(group_name)
+            #     # Only include columns that exist in the DataFrame
+            #     valid_columns = [col for col in columns if col in bowler_stats.columns]
+                
+            #     st.dataframe(
+            #         bowler_stats[valid_columns].style
+            #         .highlight_max(color='green', axis=0, subset=[col for col in ['FS', 'FS%'] if col in valid_columns])
+            #         .highlight_min(color='green', axis=0, subset=[col for col in ['FS/D', 'B/FS', 
+            #                                                                     'R/FS', 'S/R', 'Avg', 'Eco'] if col in valid_columns])
+            #         .format({
+            #             'Overs': '{:.1f}', 
+            #             'Eco': '{:.2f}', 
+            #             'S/R': '{:.2f}', 
+            #             'Avg': '{:.2f}', 
+            #             'FS/D': '{:.2f}', 
+            #             'B/FS': '{:.2f}', 
+            #             'R/FS': '{:.2f}', 
+            #             'Runs': '{:.2f}', 
+            #             'FS%': '{:.2f}'
+            #         })
+            #     )
+
             false_shot_pitch_map(match_bowling_df)
         else:
             st.warning("Select a Team")
