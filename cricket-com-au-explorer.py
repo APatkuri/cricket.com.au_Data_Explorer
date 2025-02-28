@@ -198,7 +198,7 @@ if(format_type and comp_name and match_name):
                         .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.2f}', 'FS%': '{:.2f}'}))
             
             st.text("FS: False Shot, FS%: False Shot %")
-            st.text("R/FS: Runs Conceded Per False Sho, B/FS: Balls Per False Shott, FS/D: False Shots Per Dismissal")
+            st.text("R/FS: Runs Conceded Per False Shot, B/FS: Balls Per False Shot, FS/D: False Shots Per Dismissal")
             st.text("S/R: Balls Per Dismissal, Avg: Runs Per Dismissal, Eco: Economy")
 
             # column_renames = {
