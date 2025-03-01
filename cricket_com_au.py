@@ -200,7 +200,7 @@ def process_match_batch(matches, player_dict, team_dict, comp_dict, match_comp_d
         except Exception as e:
             print(f"Error processing match {match_id}: {e}")
 
-def main():
+def main(format_type=None):
     player_data()
     year_df = sched_func()
     
@@ -233,8 +233,26 @@ def main():
     base_dir = "./processed_matches"
     os.makedirs(base_dir, exist_ok=True)
 
+    format_map = {
+        'test': (1, 'test'),
+        'odi': (2, 'odi'), 
+        't20 international': (3, 't20 international'),
+        't20 domestic': (6, 't20 domestic'),
+        'domestic the hundred': (24, 'domestic the hundred'),
+        'first class domestic': (4, 'first class domestic'),
+        'non accredited odi': (8, 'non accredited odi'),
+        'non accredited t20': (9, 'non accredited t20'),
+        'non accredited test': (7, 'non accredited test'),
+        'one day domestic': (5, 'one day domestic'),
+        'youth test': (33, 'youth test'),
+        'youth odi': (27, 'youth odi'),
+        'youth t20': (27, 'youth t20')
+    }
+
     # Process matches in parallel batches
-    for game_type_id, format_name in [(2, 'odis')]:
+    formats_to_process = [format_map[format_type]] if format_type else format_map.values()
+    
+    for game_type_id, format_name in formats_to_process:
         for is_womens in [True, False]:
             gender = 'women' if is_womens else 'men'
             format_dir = os.path.join(base_dir, format_name, gender)

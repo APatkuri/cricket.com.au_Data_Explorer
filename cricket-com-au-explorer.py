@@ -12,21 +12,26 @@ from cricket_com_au import main
 
 st.title("cricket.com.au PlayGround")
 
-update_button = st.button('Update Data')
-if update_button:
-    with st.spinner("Updating data... Please wait."):
-        main()
-    st.success("Update completed successfully!")
-
 match_list_df = pd.read_csv('./cricket.com.au_2009_2025.csv')
 match_list_df = match_list_df[match_list_df['year']>2018]
 match_list_df = match_list_df[(match_list_df['isCompleted'] | match_list_df['isLive'])]
+
+if 'format_type' not in st.session_state:
+    st.session_state.format_type = None
+
+if st.session_state.format_type:
+    update_button = st.button('Update Data')
+    if update_button:
+        with st.spinner("Updating data... Please wait."):
+            main(st.session_state.format_type.lower())
+        st.success("Update completed successfully!")
 
 format_type = st.selectbox(
     "Format",
     match_list_df['gameType'].unique(),
     index=None,
-    placeholder="Select format type"
+    placeholder="Select format type",
+    key='format_type'
 )
 
 if(format_type):
