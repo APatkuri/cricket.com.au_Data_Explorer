@@ -170,26 +170,25 @@ def process_match_batch(matches, player_dict, team_dict, comp_dict, match_comp_d
                 with open(live_matches_file, 'r') as f:
                     live_matches = set(json.load(f))
             
-            # Process if match is live or not yet processed
-            if match_id in live_matches or not os.path.exists(output_file):
+            # Get match status from year_df
+            match_row = year_df[year_df['id'] == match_id]
+            is_live = match_row['isLive'].iloc[0] if not match_row.empty else False
+            is_completed = match_row['isCompleted'].iloc[0] if not match_row.empty else False
+            
+            # Always process live matches, or unprocessed matches
+            if is_live or not os.path.exists(output_file):
                 match_df = main_func(match_id, player_dict, team_dict, comp_dict, match_comp_dict)
                 if not match_df.empty:
                     match_df.to_csv(output_file, index=False)
                     print(f"Processed and saved match {match_id} successfully")
                     
-                    # Update live matches list
-                    if match_id in live_matches:
-                        # Check if match is completed
-                        match_status = year_df[year_df['id'] == match_id]['isCompleted'].iloc[0]
-                        if match_status:
-                            live_matches.remove(match_id)
-                            print(f"Match {match_id} completed, removed from live matches")
-                    else:
-                        # Add to live matches if match is live
-                        match_status = year_df[year_df['id'] == match_id]['isLive'].iloc[0]
-                        if match_status:
-                            live_matches.add(match_id)
-                            print(f"Match {match_id} is live, added to live matches")
+                    # Update live matches tracking
+                    if is_live and match_id not in live_matches:
+                        live_matches.add(match_id)
+                        print(f"Match {match_id} is live, added to live matches")
+                    elif is_completed and match_id in live_matches:
+                        live_matches.remove(match_id)
+                        print(f"Match {match_id} completed, removed from live matches")
                     
                     # Save updated live matches list
                     with open(live_matches_file, 'w') as f:
@@ -275,17 +274,18 @@ def main(format_type=None):
             
             print(f"Processing {format_name} for {gender}")
             
-            # Filter matches based on format, gender, and last update time
+            # Filter matches based on format, gender, and include live matches regardless of last update time
             matches_df = year_df[
                 (year_df['gameTypeId'] == game_type_id) & 
-                ((year_df['isCompleted'] == True) | (year_df['isLive'] == True)) & 
                 (year_df['year'] >= 2018) & 
                 (year_df['isWomensMatch'] == is_womens) &
-                (pd.to_datetime(year_df['startDateTime'], utc=True) > last_format_update)
+                ((year_df['isLive'] == True) | 
+                 ((year_df['isCompleted'] == True) & 
+                  (pd.to_datetime(year_df['startDateTime'], utc=True) > last_format_update)))
             ]
             
             if matches_df.empty:
-                print(f"No new matches found for {format_name} {gender}")
+                print(f"No new or live matches found for {format_name} {gender}")
                 continue
                 
             print(f"Found {len(matches_df)} matches to process")
