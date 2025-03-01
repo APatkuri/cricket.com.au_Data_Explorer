@@ -44,6 +44,7 @@ if(format_type):
         selected_competition_id = int(comp_name.split("(")[-1][:-1])
         series_df = format_df[format_df['competition_id'] == selected_competition_id]
         series_df = series_df.copy()
+        series_df['name'] = series_df['name'].fillna('')
         series_df['Display'] = series_df.apply(lambda x: f"{x['name']} {x['homeTeam_name']} v {x['awayTeam_name']} ({x['id']})", axis=1)
         if(comp_name):
             match_name = st.selectbox(
@@ -88,7 +89,7 @@ if(format_type and comp_name and match_name):
     selected_match_id = int(match_name.split("(")[-1][:-1])
     match_info_df = match_list_df[match_list_df['id'] == selected_match_id]
     
-    file_name = "./processed_matches/" +  format_type.lower() + "s/" + ("women/" if match_info_df['isWomensMatch'].iloc[0] else "men/") + str(selected_match_id) + ".csv"
+    file_name = "./processed_matches/" +  format_type.lower() + "/" + ("women/" if match_info_df['isWomensMatch'].iloc[0] else "men/") + str(selected_match_id) + ".csv"
     if os.path.exists(file_name):
         match_df = pd.read_csv(f'{file_name}', low_memory=False)
 

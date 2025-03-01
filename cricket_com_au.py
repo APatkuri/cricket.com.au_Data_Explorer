@@ -234,7 +234,7 @@ def main():
     os.makedirs(base_dir, exist_ok=True)
 
     # Process matches in parallel batches
-    for game_type_id, format_name in [(1, 'tests')]:
+    for game_type_id, format_name in [(2, 'odis')]:
         for is_womens in [True, False]:
             gender = 'women' if is_womens else 'men'
             format_dir = os.path.join(base_dir, format_name, gender)
