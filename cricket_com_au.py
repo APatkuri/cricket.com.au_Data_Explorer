@@ -152,7 +152,10 @@ def sched_func():
 def player_data():
     try:
         response = requests.get("https://apiv2.cricket.com.au/web/players/list?isActive=&&jsconfig=eccn%3Atrue&format=json", timeout=100)
-        pd.DataFrame(response.json()['players']).to_csv("./players.csv", index=False)
+        # pd.DataFrame(response.json()['players']).to_csv("./players.csv", index=False)
+        players_df = pd.DataFrame(response.json()['players'])
+        players_df = players_df.sort_values(by='id')
+        players_df.to_csv("./players.csv", index=False)
     except Exception as e:
         print(f"Error fetching player data: {e}")
 
@@ -231,7 +234,7 @@ def main():
     os.makedirs(base_dir, exist_ok=True)
 
     # Process matches in parallel batches
-    for game_type_id, format_name in [(2, 'odis')]:
+    for game_type_id, format_name in [(1, 'tests')]:
         for is_womens in [True, False]:
             gender = 'women' if is_womens else 'men'
             format_dir = os.path.join(base_dir, format_name, gender)

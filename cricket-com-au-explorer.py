@@ -126,7 +126,8 @@ if(format_type and comp_name and match_name):
                 Overs = ('ballNumber', lambda x: calculate_overs(match_bowling_df.loc[x.index])),
                 TotalDeliveries=('ballNumber', 'count'),  # Total balls bowled
                 RunsConceded=('runsConceded', 'sum'),  # Total Runs Given
-                Wickets=('isWicket', lambda x: x.sum()) , # Count of non-null wickets
+                # Wickets=('isWicket', lambda x: x.sum()) , # Count of non-null wickets
+                Wickets = ('dismissalTypeId', lambda x: x.notna().sum() - x[x =='RunOut'].count()),
                 FalseShots=('battingConnectionId', lambda x: x.isin(false_shot_list).sum()),  # Count False Shots
             ).reset_index()
 
@@ -167,7 +168,8 @@ if(format_type and comp_name and match_name):
                 Overs = ('ballNumber', lambda x: calculate_overs(match_bowling_df.loc[x.index])),
                 TotalDeliveries=('ballNumber', 'count'),  # Total balls bowled
                 RunsConceded=('runsConceded', 'sum'),  # Total Runs Given
-                Wickets=('isWicket', lambda x: x.sum()),  # Count of non-null wickets
+                # Wickets=('isWicket', lambda x: x.sum()),  # Count of non-null wickets
+                Wickets = ('dismissalTypeId', lambda x: x.notna().sum() - x[x =='RunOut'].count()),
                 FalseShots=('battingConnectionId', lambda x: x.isin(false_shot_list).sum())  # Count False Shots
             ).reset_index()
 
