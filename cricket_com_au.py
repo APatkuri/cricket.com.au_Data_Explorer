@@ -1,6 +1,6 @@
 import pandas as pd
 import requests
-from datetime import date
+from datetime import date, datetime, timezone
 import os
 import ast
 import json
@@ -233,6 +233,13 @@ def main(format_type=None):
     base_dir = "./processed_matches"
     os.makedirs(base_dir, exist_ok=True)
 
+    # Load format-specific last update times
+    format_updates_file = os.path.join(base_dir, 'format_updates.json')
+    format_updates = {}
+    if os.path.exists(format_updates_file):
+        with open(format_updates_file, 'r') as f:
+            format_updates = json.load(f)
+
     format_map = {
         'test': (1, 'test'),
         'odi': (2, 'odi'), 
@@ -258,20 +265,27 @@ def main(format_type=None):
             format_dir = os.path.join(base_dir, format_name, gender)
             os.makedirs(format_dir, exist_ok=True)
             
+            format_key = f"{format_name}_{gender}"
+            # Convert the default datetime to UTC timezone
+            default_date = datetime(2000, 1, 1, tzinfo=datetime.now(timezone.utc).tzinfo)
+            last_format_update = datetime.fromisoformat(format_updates.get(format_key, default_date.isoformat()))
+            
             # Create live matches file for this format/gender
             live_matches_file = os.path.join(format_dir, 'live_matches.json')
             
             print(f"Processing {format_name} for {gender}")
             
+            # Filter matches based on format, gender, and last update time
             matches_df = year_df[
                 (year_df['gameTypeId'] == game_type_id) & 
                 ((year_df['isCompleted'] == True) | (year_df['isLive'] == True)) & 
                 (year_df['year'] >= 2018) & 
-                (year_df['isWomensMatch'] == is_womens)
+                (year_df['isWomensMatch'] == is_womens) &
+                (pd.to_datetime(year_df['startDateTime'], utc=True) > last_format_update)
             ]
             
             if matches_df.empty:
-                print(f"No matches found for {format_name} {gender}")
+                print(f"No new matches found for {format_name} {gender}")
                 continue
                 
             print(f"Found {len(matches_df)} matches to process")
@@ -291,6 +305,11 @@ def main(format_type=None):
                 # Wait for all batches to complete
                 for future in futures:
                     future.result()
+            
+            # Update format's last update time with UTC timezone
+            format_updates[format_key] = datetime.now(timezone.utc).isoformat()
+            with open(format_updates_file, 'w') as f:
+                json.dump(format_updates, f)
             
             print(f"Completed processing all matches for {format_name} {gender}")
 
