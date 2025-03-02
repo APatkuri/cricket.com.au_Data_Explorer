@@ -120,7 +120,8 @@ if(format_type and comp_name and match_name):
             spin = ['Orthodox', 'Unorthodox', 'OffSpin', 'LegSpin']
 
             match_bowling_df = match_bowling_df.copy()
-            match_bowling_df['BowlingType'] = np.where(match_bowling_df['bowlingTypeId'].isin(spin), "Spin", "Pace")
+            # match_bowling_df['BowlingType'] = np.where(match_bowling_df['bowlingTypeId'].isin(spin), "Spin", "Pace")
+            match_bowling_df['BowlingType'] = np.where(pd.isna(match_bowling_df['bowlingTypeId']), None, np.where(match_bowling_df['bowlingTypeId'].isin(spin), "Spin", "Pace"))
             # false_shot_df = match_df[false_shots_mask].groupby(["bowlerPlayerName", "bowlingTeamName"]).size().reset_index(name='FalseShots')
             # total_shots_df = match_df.groupby(["bowlerPlayerName", "bowlingTeamName"]).size().reset_index(name='TotalDeliveries')
             # false_shot_df['FalseShot%'] = (false_shot_df['FalseShots'] / false_shot_df['TotalDeliveries'])*100.0
@@ -129,7 +130,7 @@ if(format_type and comp_name and match_name):
                 legal_deliveries = df[~(df['isWide'] | df['isNoBall'])].shape[0]  # Exclude wides & no-balls
                 full_overs = legal_deliveries // 6
                 remaining_balls = legal_deliveries % 6
-                return full_overs + (remaining_balls / 10)
+                return full_overs + (remaining_balls * 0.1)
 
             bowl_team_stats = match_bowling_df.groupby(["inningNumber", "BowlingType","bowlingTeamName"]).agg(
                 Overs = ('ballNumber', lambda x: calculate_overs(match_bowling_df.loc[x.index])),
