@@ -160,15 +160,32 @@ def player_data():
         print(f"Error fetching player data: {e}")
 
 def process_match_batch(matches, player_dict, team_dict, comp_dict, match_comp_dict, format_dir, live_matches_file, year_df):
+    # Load existing live matches
+    live_matches = set()
+    if os.path.exists(live_matches_file):
+        with open(live_matches_file, 'r') as f:
+            live_matches = set(json.load(f))
+    
+    # Check for matches that were previously live but now completed
+    completed_matches = set()
+    for match_id in live_matches:
+        match_row = year_df[year_df['id'] == match_id]
+        if not match_row.empty and match_row['isCompleted'].iloc[0]:
+            completed_matches.add(match_id)
+            print(f"Match {match_id} was live but is now completed")
+            # Process completed match one final time
+            output_file = os.path.join(format_dir, f"{match_id}.csv")
+            match_df = main_func(match_id, player_dict, team_dict, comp_dict, match_comp_dict)
+            if not match_df.empty:
+                match_df.to_csv(output_file, index=False)
+                print(f"Final update for completed match {match_id}")
+    
+    # Remove completed matches from live matches set
+    live_matches -= completed_matches
+    
     for match_id in matches:
         try:
             output_file = os.path.join(format_dir, f"{match_id}.csv")
-            
-            # Check if match is in live matches
-            live_matches = set()
-            if os.path.exists(live_matches_file):
-                with open(live_matches_file, 'r') as f:
-                    live_matches = set(json.load(f))
             
             # Get match status from year_df
             match_row = year_df[year_df['id'] == match_id]
@@ -189,15 +206,15 @@ def process_match_batch(matches, player_dict, team_dict, comp_dict, match_comp_d
                     elif is_completed and match_id in live_matches:
                         live_matches.remove(match_id)
                         print(f"Match {match_id} completed, removed from live matches")
-                    
-                    # Save updated live matches list
-                    with open(live_matches_file, 'w') as f:
-                        json.dump(list(live_matches), f)
             else:
                 print(f"Match {match_id} already processed and not live, skipping")
                 
         except Exception as e:
             print(f"Error processing match {match_id}: {e}")
+    
+    # Save updated live matches list
+    with open(live_matches_file, 'w') as f:
+        json.dump(list(live_matches), f)
 
 def main(format_type=None):
     player_data()
@@ -273,6 +290,21 @@ def main(format_type=None):
             live_matches_file = os.path.join(format_dir, 'live_matches.json')
             
             print(f"Processing {format_name} for {gender}")
+            
+            # First check for any previously live matches that are now completed
+            if os.path.exists(live_matches_file):
+                with open(live_matches_file, 'r') as f:
+                    live_matches = set(json.load(f))
+                if live_matches:
+                    completed_batch = []
+                    for match_id in live_matches:
+                        match_row = year_df[year_df['id'] == match_id]
+                        if not match_row.empty and match_row['isCompleted'].iloc[0]:
+                            completed_batch.append(match_id)
+                    if completed_batch:
+                        print(f"Processing {len(completed_batch)} completed matches that were previously live")
+                        process_match_batch(completed_batch, player_dict, team_dict, comp_dict, 
+                                         match_comp_dict, format_dir, live_matches_file, year_df)
             
             # Filter matches based on format, gender, and include live matches regardless of last update time
             matches_df = year_df[
