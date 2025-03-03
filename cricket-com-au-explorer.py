@@ -36,8 +36,8 @@ format_type = st.selectbox(
 
 if(format_type):
     format_df = match_list_df[match_list_df['gameType'] == format_type]
-    unique_competitions = format_df[['competition_name', 'competition_id']].drop_duplicates()
-    unique_competitions.loc[:, 'Display'] = unique_competitions.apply(lambda x: f"{x['competition_name']} ({x['competition_id']})", axis=1)
+    unique_competitions = format_df[['competition_name', 'year', 'competition_id',]].drop_duplicates()
+    unique_competitions.loc[:, 'Display'] = unique_competitions.apply(lambda x: f"[{x['year']}] {x['competition_name']} ({x['competition_id']})", axis=1)
     comp_name = st.selectbox(
         "Series",
         unique_competitions['Display'],
@@ -165,12 +165,18 @@ if(format_type and comp_name and match_name):
                 'bowlingTeamName': 'BowlTeam',
                 'BowlingType': 'BowlType',
                 'bowlerPlayerName': 'BowlerName',
+                'battingPlayerName': 'BatterName',
+                'battingTeamName': 'BatterTeam',
                 'inningNumber': 'Inn',
                 'TotalDeliveries': 'Balls',
                 'FF': 'FF%',
                 'BF': 'BF%',
                 'FFCtrl' : 'FFCtrl%',
                 'BFCtrl' : 'BFCtrl%',
+                'SpinCtrl' : 'SpinCtrl%',
+                'PaceCtrl' : 'PaceCtrl%',
+                'Dot': 'Dot%',
+                'Boundary': 'Boundary%'
                 # Add other renames as needed
             }
             bowl_team_stats_copy = bowl_team_stats.copy()
@@ -217,6 +223,27 @@ if(format_type and comp_name and match_name):
                 false_shots_ff = new_df['battingConnectionId'].isin(false_shot_list).sum()
                 return 100 - ((false_shots_ff / total_balls)*100)
 
+            def calculate_bowl_type_ctrl(df, bowltype):
+
+                false_shot_list = ['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
+                                        'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge']
+
+                new_df = df[df['BowlingType'] == bowltype]
+
+                if(len(new_df) == 0):
+                    return None
+                total_balls = new_df['ballNumber'].count()
+                false_shots_ff = new_df['battingConnectionId'].isin(false_shot_list).sum()
+                return 100 - ((false_shots_ff / total_balls)*100)
+            
+            def calculate_best_shot(df):
+                
+                # most_common_shot = df['battingShotTypeId'].mode()[0]
+                runs_per_shot = df.groupby(['battingShotTypeId'])['runsScored'].sum()
+                max_shot = runs_per_shot.idxmax()
+
+                return max_shot
+
 
             batter_stats = match_bowling_df.groupby(["battingPlayerName", "battingTeamName"]).agg(
                 TotalDeliveries=('ballNumber', 'count'),  # Total balls faced
@@ -224,11 +251,17 @@ if(format_type and comp_name and match_name):
                 FalseShots = ('battingConnectionId', lambda x: x.isin(false_shot_list).sum()),
                 FF = ('battingFeetId', lambda x: (x[x == "FrontFoot"].count()/x.notna().count())*100),
                 FFCtrl = ('ballNumber', lambda x: calculate_foot_ctrl(match_bowling_df.loc[x.index], "FrontFoot")),
-                BFCtrl = ('ballNumber', lambda x: calculate_foot_ctrl(match_bowling_df.loc[x.index], "BackFoot"))
+                BFCtrl = ('ballNumber', lambda x: calculate_foot_ctrl(match_bowling_df.loc[x.index], "BackFoot")),
+                SpinCtrl = ('ballNumber', lambda x: calculate_bowl_type_ctrl(match_bowling_df.loc[x.index], "Spin")),
+                PaceCtrl = ('ballNumber', lambda x: calculate_bowl_type_ctrl(match_bowling_df.loc[x.index], "Pace")),
+                Dot = ('runsScored', lambda x: (x[x == 0].count()/x.notna().count())*100),
+                Boundary = ('runsScored', lambda x: (x[x >= 4].count()/x.notna().count())*100),
+                ProductiveShot = ('ballNumber', lambda x: calculate_best_shot(match_bowling_df.loc[x.index]))
             ).reset_index()
             batter_stats['Control%'] = 100 - ((batter_stats['FalseShots'] / batter_stats['TotalDeliveries']) * 100)
             batter_stats['S/R'] = np.where(batter_stats['TotalDeliveries'] == 0, 0, ((batter_stats['Runs'] / batter_stats['TotalDeliveries'])*100))
-            batter_stats = batter_stats.sort_values(by=["battingTeamName"], inplace=False, ascending=False)
+            # batter_stats = batter_stats.sort_values(by=["battingTeamName"], inplace=False, ascending=False)
+            batter_stats = batter_stats.sort_values(by=["battingTeamName", "Runs"], inplace=False, ascending=False)
             batter_stats_copy = batter_stats.copy()
             batter_stats_copy = batter_stats_copy.rename(columns=column_renames)
 
@@ -236,20 +269,24 @@ if(format_type and comp_name and match_name):
             st.subheader("Team Metrics")
             st.dataframe(bowl_team_stats_copy.style.highlight_max(color='green', axis=0, subset=['FS', 'FS%'])
                          .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
-                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.2f}', 'FS%': '{:.2f}'}))
-            st.subheader("Bowler Wise Metrics")
+                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.2f}', 'FS%': '{:.2f}'}), 
+                        hide_index=True)
+            st.subheader("Bowler Metrics")
             st.dataframe(bowl_stats_copy.style.highlight_max(color='green', axis=0, subset=['FS', 'FS%'])
                          .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
-                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.2f}', 'FS%': '{:.2f}'}))
+                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.2f}', 'FS%': '{:.2f}'}),
+                        hide_index=True)
             
 
             st.subheader("Batters Metrics")
-            st.dataframe(batter_stats_copy.style.highlight_max(color='green', axis=0, subset=['Control%', 'FFCtrl%', 'BFCtrl%', 'Runs', 'S/R'])
-                         .highlight_max(color='red', axis=0, subset=['FS'])
-                         .format({'Control%' : '{:.2f}', 'FF%' : '{:.2f}', 'FFCtrl%' : '{:.2f}', 'BFCtrl%' : '{:.2f}', 'Runs' : '{:.0f}', 'S/R' : '{:.2f}'}))
-            st.text("FS: False Shot, FS%: False Shot %")
-            st.text("R/FS: Runs Conceded Per False Shot, B/FS: Balls Per False Shot, FS/D: False Shots Per Dismissal")
-            st.text("S/R: Balls Per Dismissal, Avg: Runs Per Dismissal, Eco: Economy")
+            st.dataframe(batter_stats_copy.style.highlight_max(color='green', axis=0, subset=['Control%', 'FFCtrl%', 'BFCtrl%', 'Runs', 'S/R', 'SpinCtrl%', 'PaceCtrl%', 'Boundary%'])
+                         .highlight_max(color='red', axis=0, subset=['FS', 'Dot%'])
+                         .format({'Control%' : '{:.2f}', 'FF%' : '{:.2f}', 'FFCtrl%' : '{:.2f}', 'BFCtrl%' : '{:.2f}', 'Runs' : '{:.0f}', 'S/R' : '{:.2f}', 'SpinCtrl%' : '{:.2f}', 'PaceCtrl%' : '{:.2f}', 'Dot%': '{:.2f}', 'Boundary%': '{:.2f}'}),
+                         hide_index=True)
+            st.caption("FS: False Shot, FS%: False Shot %, S/R: Balls Per Dismissal, Avg: Runs Per Dismissal, Eco: Economy")
+            st.caption("R/FS: Runs Conceded Per False Shot, B/FS: Balls Per False Shot, FS/D: False Shots Per Dismissal")
+            st.caption("FF%: Front Foot %, FFCtrl% : Percentage of balls in control among all balls played on Front Foot by that batter")
+            st.caption("BFCtrl%, SpinCtrl%, PaceCtrl% : Similar Control Percentage to FFCtrl% for BackFoot, Spin and Pace respectively")
 
             # column_renames = {
             #     'FalseShots': 'FS',
