@@ -181,6 +181,7 @@ if(format_type and comp_name and match_name):
                 remaining_balls = legal_deliveries % 6
                 return full_overs + (remaining_balls * 0.1)
 
+            match_bowling_df['dismissalTypeId'] = match_bowling_df.get('dismissalTypeId', pd.NA)
             bowl_team_stats = match_bowling_df.groupby(["inningNumber", "BowlingType","bowlingTeamName"]).agg(
                 Overs = ('ballNumber', lambda x: calculate_overs(match_bowling_df.loc[x.index])),
                 TotalDeliveries=('ballNumber', 'count'),  # Total balls bowled
@@ -267,7 +268,7 @@ if(format_type and comp_name and match_name):
                 new_df = df[(df['battingFeetId'] == foottype) & (df['validDelivery'] == True)]
 
                 if(len(new_df) == 0):
-                    return None
+                    return np.nan
                 total_balls = new_df['ballNumber'].count()
                 false_shots_ff = new_df['battingConnectionId'].isin(false_shot_list).sum()
                 return 100 - ((false_shots_ff / total_balls)*100)
@@ -280,7 +281,7 @@ if(format_type and comp_name and match_name):
                 new_df = df[(df['BowlingType'] == bowltype) & (df['validDelivery'] == True)]
 
                 if(len(new_df) == 0):
-                    return None
+                    return np.nan
                 total_balls = new_df['ballNumber'].count()
                 false_shots_ff = new_df['battingConnectionId'].isin(false_shot_list).sum()
                 return 100 - ((false_shots_ff / total_balls)*100)
@@ -333,8 +334,8 @@ if(format_type and comp_name and match_name):
             
 
             st.subheader("Batters Metrics")
-            columns_to_check = ['Control%', 'FFCtrl%', 'BFCtrl%', 'Runs', 'S/R', 'SpinCtrl%', 'PaceCtrl%', 'Boundary%']
-            batter_stats_copy[columns_to_check] = batter_stats_copy[columns_to_check].where(pd.notna(batter_stats_copy[columns_to_check]), 0)
+            # columns_to_check = ['Control%', 'FFCtrl%', 'BFCtrl%', 'Runs', 'S/R', 'SpinCtrl%', 'PaceCtrl%', 'Boundary%']
+            # batter_stats_copy[columns_to_check] = batter_stats_copy[columns_to_check].where(pd.notna(batter_stats_copy[columns_to_check]), 0)
             st.dataframe(batter_stats_copy.style.highlight_max(color='green', axis=0, subset=['Control%', 'FFCtrl%', 'BFCtrl%', 'Runs', 'S/R', 'SpinCtrl%', 'PaceCtrl%', 'Boundary%'])
                          .highlight_max(color='red', axis=0, subset=['FS', 'Dot%'])
                          .format({'Control%' : '{:.2f}', 'FF%' : '{:.2f}', 'FFCtrl%' : '{:.2f}', 'BFCtrl%' : '{:.2f}', 'Runs' : '{:.0f}', 'S/R' : '{:.2f}', 'SpinCtrl%' : '{:.2f}', 'PaceCtrl%' : '{:.2f}', 'Dot%': '{:.2f}', 'Boundary%': '{:.2f}'}),
