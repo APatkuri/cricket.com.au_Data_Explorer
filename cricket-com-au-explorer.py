@@ -76,19 +76,57 @@ def false_shot_pitch_map(df):
     st.pyplot(plt)
         
 def pitch_map(df):
+    line_rename_map = {
+        'Wide': 'W', 'OutsideOff': 'OO', 'OffStump': 'Off',
+        'MiddleStump': 'Mid', 'LegStump': 'Leg', 'DownLeg': 'DL', 'WideDownLeg': 'WDL'
+    }
 
-    # df = df[df['battingConnectionId'].isin(['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
-    #                                     'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge'])]
-    heatmap_data = df.pivot_table(index="lengthTypeId", columns="lineTypeId", aggfunc="size", fill_value=0)
-    length_order = ['FullToss', 'Yorker', 'HalfVolley', 'LengthBall', 'BackOfALength', 'Short' ]
+    length_order = ['FullToss', 'Yorker', 'HalfVolley', 'LengthBall', 'BackOfALength', 'Short']
     line_order = ['Wide', 'OutsideOff', 'OffStump', 'MiddleStump', 'LegStump', 'DownLeg', 'WideDownLeg']
-    heatmap_data = heatmap_data.reindex(index=length_order, columns=line_order).fillna(0)
-    heatmap_data = heatmap_data.astype(int)
-    fig, ax = plt.subplots(figsize=(8,6))
-    ax.xaxis.tick_top()
-    ax = sns.heatmap(heatmap_data, annot=True, fmt="d", cmap='coolwarm')
-    plt.title('HeatMap')
-    st.pyplot(plt)
+
+    unique_bowlers = df['bowlerPlayerName'].dropna().unique()
+    n_bowlers = len(unique_bowlers)
+    n_cols = 3  
+    n_rows = -(-n_bowlers // n_cols)  # Equivalent to math.ceil(n_bowlers / n_cols)
+
+    fig, axes = plt.subplots(nrows=n_rows, ncols=n_cols, figsize=(15, 5 * n_rows))
+    axes = axes.flatten()
+
+    heatmap_data_list = []
+
+    # **Single Pass to Compute Heatmaps & Find Global Min/Max**
+    for bowler in unique_bowlers:
+        bowler_df = df[df['bowlerPlayerName'] == bowler]
+
+        # **Optimized Counting Method (Faster than pivot_table)**
+        heatmap_data = bowler_df[['lengthTypeId', 'lineTypeId']].value_counts().unstack(fill_value=0)
+
+        # **Ensure Proper Ordering Without Multiple reindex() Calls**
+        heatmap_data = heatmap_data.reindex(index=length_order, columns=line_order).fillna(0).astype(int)
+        heatmap_data = heatmap_data.rename(columns=line_rename_map)
+
+        heatmap_data_list.append(heatmap_data)
+
+    # **Find Global Min/Max in One Go (Vectorized)**
+    global_min = np.min([hm.values.min() for hm in heatmap_data_list])
+    global_max = np.max([hm.values.max() for hm in heatmap_data_list])
+
+    # **Plot Heatmaps**
+    for i, (heatmap_data, bowler) in enumerate(zip(heatmap_data_list, unique_bowlers)):
+        ax = axes[i]
+        sns.heatmap(heatmap_data, fmt="d", cmap='coolwarm', vmin=global_min, vmax=global_max, ax=ax, annot=False)
+        ax.set_title(f'{bowler}')
+        ax.set_xlabel("")
+        ax.set_ylabel("")
+        ax.xaxis.tick_top()
+
+    # **Hide Extra Subplots (If Any)**
+    for j in range(i + 1, len(axes)):
+        fig.delaxes(axes[j])
+
+    plt.tight_layout()
+    st.pyplot(fig)
+
 
 if(format_type and comp_name and match_name):
     selected_match_id = int(match_name.split("(")[-1][:-1])
@@ -338,7 +376,8 @@ if(format_type and comp_name and match_name):
             #         })
             #     )
 
-            false_shot_pitch_map(match_bowling_df)
+            st.subheader("Bowler Pitch Map")
+            pitch_map(match_bowling_df)
         else:
             st.warning("Select a Team")
 
