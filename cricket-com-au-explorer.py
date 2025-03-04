@@ -99,11 +99,15 @@ def pitch_map(df):
         bowler_df = df[df['bowlerPlayerName'] == bowler]
 
         # **Optimized Counting Method (Faster than pivot_table)**
-        heatmap_data = bowler_df[['lengthTypeId', 'lineTypeId']].value_counts().unstack(fill_value=0)
 
         # **Ensure Proper Ordering Without Multiple reindex() Calls**
-        heatmap_data = heatmap_data.reindex(index=length_order, columns=line_order).fillna(0).astype(int)
-        heatmap_data = heatmap_data.rename(columns=line_rename_map)
+        if(df['lineTypeId'] == 'Null').any():
+            heatmap_data = bowler_df['lengthTypeId'].value_counts().reindex(length_order, fill_value=0).astype(int)
+            heatmap_data = heatmap_data.to_frame()
+        else:
+            heatmap_data = bowler_df[['lengthTypeId', 'lineTypeId']].value_counts().unstack(fill_value=0)
+            heatmap_data = heatmap_data.reindex(index=length_order, columns=line_order).fillna(0).astype(int)
+            heatmap_data = heatmap_data.rename(columns=line_rename_map)
 
         heatmap_data_list.append(heatmap_data)
 
@@ -143,7 +147,14 @@ if(format_type and comp_name and match_name):
             placeholder="Choose an option"
         )
 
-        match_bowling_df = match_df[match_df['bowlingTeamName'].isin(selected_bowl_teams)]
+        match_bowling_df = match_df[(match_df['bowlingTeamName'].isin(selected_bowl_teams))]
+
+        if selected_bowl_teams:
+            max_overs = match_df[match_df['bowlingTeamName'].isin(selected_bowl_teams)]['over_overNumber'].max()
+            over_range = st.slider("Overs", 0, max_overs, (0, max_overs))
+            match_bowling_df = match_bowling_df[match_bowling_df['over_overNumber'].between(over_range[0], over_range[1])]
+        # else:
+            # match_bowling_df = pd.DataFrame()
 
         if(len(match_bowling_df) > 0):
 
@@ -222,7 +233,7 @@ if(format_type and comp_name and match_name):
 
 
 
-            bowler_stats = match_bowling_df.groupby(["bowlerPlayerName", "BowlingType", "bowlingTeamName"]).agg(
+            bowler_stats = match_bowling_df.groupby(["inningNumber", "bowlerPlayerName", "BowlingType", "bowlingTeamName"]).agg(
                 Overs = ('ballNumber', lambda x: calculate_overs(match_bowling_df.loc[x.index])),
                 TotalDeliveries=('ballNumber', 'count'),  # Total balls bowled
                 RunsConceded=('runsConceded', 'sum'),  # Total Runs Given
@@ -288,7 +299,7 @@ if(format_type and comp_name and match_name):
             match_bowling_df_copy['isWide'] = match_bowling_df_copy['isWide'].astype(bool)
             match_bowling_df_copy['validDelivery'] = ~(match_bowling_df_copy['isWide'].fillna(False))
             # match_bowling_df_copy['validDelivery'] = np.where(~(match_bowling_df_copy['isWide'].fillna(False) | match_bowling_df_copy['isNoBall'].fillna(False)), True, False)
-            batter_stats = match_bowling_df_copy.groupby(["battingPlayerName", "battingTeamName"]).agg(
+            batter_stats = match_bowling_df_copy.groupby(["inningNumber", "battingPlayerName", "battingTeamName"]).agg(
                 Runs=('runsScored', 'sum'),
                 TotalDeliveries=('validDelivery', 'sum'),  # Total balls faced
                 FalseShots = ('battingConnectionId', lambda x: x.isin(false_shot_list).sum()),
@@ -322,6 +333,8 @@ if(format_type and comp_name and match_name):
             
 
             st.subheader("Batters Metrics")
+            columns_to_check = ['Control%', 'FFCtrl%', 'BFCtrl%', 'Runs', 'S/R', 'SpinCtrl%', 'PaceCtrl%', 'Boundary%']
+            batter_stats_copy[columns_to_check] = batter_stats_copy[columns_to_check].where(pd.notna(batter_stats_copy[columns_to_check]), 0)
             st.dataframe(batter_stats_copy.style.highlight_max(color='green', axis=0, subset=['Control%', 'FFCtrl%', 'BFCtrl%', 'Runs', 'S/R', 'SpinCtrl%', 'PaceCtrl%', 'Boundary%'])
                          .highlight_max(color='red', axis=0, subset=['FS', 'Dot%'])
                          .format({'Control%' : '{:.2f}', 'FF%' : '{:.2f}', 'FFCtrl%' : '{:.2f}', 'BFCtrl%' : '{:.2f}', 'Runs' : '{:.0f}', 'S/R' : '{:.2f}', 'SpinCtrl%' : '{:.2f}', 'PaceCtrl%' : '{:.2f}', 'Dot%': '{:.2f}', 'Boundary%': '{:.2f}'}),
