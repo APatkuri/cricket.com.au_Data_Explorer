@@ -215,7 +215,7 @@ if(format_type and comp_name and match_name):
                 false_shot_list = ['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
                                         'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge']
                 
-                new_df = df[df['battingFeetId'] == foottype]
+                new_df = df[(df['battingFeetId'] == foottype) & (df['validDelivery'] == True)]
 
                 if(len(new_df) == 0):
                     return None
@@ -228,7 +228,7 @@ if(format_type and comp_name and match_name):
                 false_shot_list = ['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
                                         'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge']
 
-                new_df = df[df['BowlingType'] == bowltype]
+                new_df = df[(df['BowlingType'] == bowltype) & (df['validDelivery'] == True)]
 
                 if(len(new_df) == 0):
                     return None
@@ -239,24 +239,29 @@ if(format_type and comp_name and match_name):
             def calculate_best_shot(df):
                 
                 # most_common_shot = df['battingShotTypeId'].mode()[0]
+                df = df[df['validDelivery'] == True]
                 runs_per_shot = df.groupby(['battingShotTypeId'])['runsScored'].sum()
                 max_shot = runs_per_shot.idxmax()
 
                 return max_shot
 
 
-            batter_stats = match_bowling_df.groupby(["battingPlayerName", "battingTeamName"]).agg(
-                TotalDeliveries=('ballNumber', 'count'),  # Total balls faced
+            match_bowling_df_copy = match_bowling_df.copy()
+            match_bowling_df_copy['isWide'] = match_bowling_df_copy['isWide'].astype(bool)
+            match_bowling_df_copy['validDelivery'] = ~(match_bowling_df_copy['isWide'].fillna(False))
+            # match_bowling_df_copy['validDelivery'] = np.where(~(match_bowling_df_copy['isWide'].fillna(False) | match_bowling_df_copy['isNoBall'].fillna(False)), True, False)
+            batter_stats = match_bowling_df_copy.groupby(["battingPlayerName", "battingTeamName"]).agg(
                 Runs=('runsScored', 'sum'),
+                TotalDeliveries=('validDelivery', 'sum'),  # Total balls faced
                 FalseShots = ('battingConnectionId', lambda x: x.isin(false_shot_list).sum()),
                 FF = ('battingFeetId', lambda x: (x[x == "FrontFoot"].count()/x.notna().count())*100),
-                FFCtrl = ('ballNumber', lambda x: calculate_foot_ctrl(match_bowling_df.loc[x.index], "FrontFoot")),
-                BFCtrl = ('ballNumber', lambda x: calculate_foot_ctrl(match_bowling_df.loc[x.index], "BackFoot")),
-                SpinCtrl = ('ballNumber', lambda x: calculate_bowl_type_ctrl(match_bowling_df.loc[x.index], "Spin")),
-                PaceCtrl = ('ballNumber', lambda x: calculate_bowl_type_ctrl(match_bowling_df.loc[x.index], "Pace")),
+                FFCtrl = ('ballNumber', lambda x: calculate_foot_ctrl(match_bowling_df_copy.loc[x.index], "FrontFoot")),
+                BFCtrl = ('ballNumber', lambda x: calculate_foot_ctrl(match_bowling_df_copy.loc[x.index], "BackFoot")),
+                SpinCtrl = ('ballNumber', lambda x: calculate_bowl_type_ctrl(match_bowling_df_copy.loc[x.index], "Spin")),
+                PaceCtrl = ('ballNumber', lambda x: calculate_bowl_type_ctrl(match_bowling_df_copy.loc[x.index], "Pace")),
                 Dot = ('runsScored', lambda x: (x[x == 0].count()/x.notna().count())*100),
                 Boundary = ('runsScored', lambda x: (x[x >= 4].count()/x.notna().count())*100),
-                ProductiveShot = ('ballNumber', lambda x: calculate_best_shot(match_bowling_df.loc[x.index]))
+                ProductiveShot = ('ballNumber', lambda x: calculate_best_shot(match_bowling_df_copy.loc[x.index]))
             ).reset_index()
             batter_stats['Control%'] = 100 - ((batter_stats['FalseShots'] / batter_stats['TotalDeliveries']) * 100)
             batter_stats['S/R'] = np.where(batter_stats['TotalDeliveries'] == 0, 0, ((batter_stats['Runs'] / batter_stats['TotalDeliveries'])*100))
