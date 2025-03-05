@@ -255,7 +255,7 @@ if(format_type and comp_name and match_name):
             bowler_stats['Eco'] = np.where(bowler_stats['TotalDeliveries'] == 0, 0, ((bowler_stats['RunsConceded'] / bowler_stats['Overs'])))
             # bowler_stats['FalseShot%'] = bowler_stats['FalseShot%'].round(2).astype(str)
             # bowler_stats['RunsConceded'] = bowler_stats['RunsConceded'].round(2).astype(str)
-            bowler_stats = bowler_stats.sort_values(by=["bowlingTeamName", "BowlingType"], inplace=False, ascending=False)
+            bowler_stats = bowler_stats.sort_values(by=["inningNumber", "bowlingTeamName", "BowlingType"], inplace=False, ascending=False)
 
             bowl_stats_copy = bowler_stats.copy()
             bowl_stats_copy = bowl_stats_copy.rename(columns=column_renames)
@@ -316,7 +316,7 @@ if(format_type and comp_name and match_name):
             batter_stats['Control%'] = 100 - ((batter_stats['FalseShots'] / batter_stats['TotalDeliveries']) * 100)
             batter_stats['S/R'] = np.where(batter_stats['TotalDeliveries'] == 0, 0, ((batter_stats['Runs'] / batter_stats['TotalDeliveries'])*100))
             # batter_stats = batter_stats.sort_values(by=["battingTeamName"], inplace=False, ascending=False)
-            batter_stats = batter_stats.sort_values(by=["battingTeamName", "Runs"], inplace=False, ascending=False)
+            batter_stats = batter_stats.sort_values(by=["inningNumber", "battingTeamName", "Runs"], inplace=False, ascending=False)
             batter_stats_copy = batter_stats.copy()
             batter_stats_copy = batter_stats_copy.rename(columns=column_renames)
 
