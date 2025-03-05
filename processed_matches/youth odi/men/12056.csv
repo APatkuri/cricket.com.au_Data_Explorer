@@ -1,0 +1,582 @@
+over_id,over_overNumber,over_runrate,over_totalInningRuns,over_totalInningWickets,id,matchName,fixtureId,fixtureName,inningNumber,battingTeamId,battingTeamName,bowlingTeamId,bowlingTeamName,ballNumber,isWicket,fieldingPosition,extras,runs,isBoundry,isAirNotControlled
+477194,1,2.0,2.0,0.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477194,1,2.0,2.0,0.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477194,1,2.0,2.0,0.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477194,1,2.0,2.0,0.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477194,1,2.0,2.0,0.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477194,1,2.0,2.0,0.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477194,1,2.0,2.0,0.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477195,2,3.5,7.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477195,2,3.5,7.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477195,2,3.5,7.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477195,2,3.5,7.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477195,2,3.5,7.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477195,2,3.5,7.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477195,2,3.5,7.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477196,3,3.0,9.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477196,3,3.0,9.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477196,3,3.0,9.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477196,3,3.0,9.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477196,3,3.0,9.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477196,3,3.0,9.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477197,4,2.75,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477197,4,2.75,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477197,4,2.75,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477197,4,2.75,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477197,4,2.75,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477197,4,2.75,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477199,5,2.2,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477199,5,2.2,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477199,5,2.2,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477199,5,2.2,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477199,5,2.2,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477199,5,2.2,11.0,1.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477200,6,2.33,14.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477200,6,2.33,14.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477200,6,2.33,14.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477200,6,2.33,14.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477200,6,2.33,14.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477200,6,2.33,14.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477200,6,2.33,14.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477203,7,3.57,25.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477203,7,3.57,25.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477203,7,3.57,25.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477203,7,3.57,25.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477203,7,3.57,25.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477203,7,3.57,25.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477203,7,3.57,25.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477204,8,4.75,38.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477204,8,4.75,38.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477204,8,4.75,38.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477204,8,4.75,38.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477204,8,4.75,38.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477204,8,4.75,38.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477204,8,4.75,38.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477204,8,4.75,38.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477204,8,4.75,38.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477204,8,4.75,38.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477206,9,4.89,44.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477206,9,4.89,44.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477206,9,4.89,44.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477206,9,4.89,44.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477206,9,4.89,44.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477206,9,4.89,44.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477206,9,4.89,44.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477207,10,4.9,49.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477207,10,4.9,49.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477207,10,4.9,49.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477207,10,4.9,49.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477207,10,4.9,49.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477207,10,4.9,49.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477208,11,4.91,54.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477208,11,4.91,54.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477208,11,4.91,54.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477208,11,4.91,54.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477208,11,4.91,54.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477208,11,4.91,54.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477209,12,4.83,58.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477209,12,4.83,58.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477209,12,4.83,58.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477209,12,4.83,58.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477209,12,4.83,58.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477209,12,4.83,58.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477210,13,4.62,60.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477210,13,4.62,60.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477210,13,4.62,60.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477210,13,4.62,60.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477210,13,4.62,60.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477210,13,4.62,60.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477211,14,4.36,61.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477211,14,4.36,61.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477211,14,4.36,61.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477211,14,4.36,61.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477211,14,4.36,61.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477211,14,4.36,61.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477215,15,4.27,64.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477215,15,4.27,64.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477215,15,4.27,64.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477215,15,4.27,64.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477215,15,4.27,64.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477215,15,4.27,64.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477215,15,4.27,64.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477216,16,4.19,67.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477216,16,4.19,67.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477216,16,4.19,67.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477216,16,4.19,67.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477216,16,4.19,67.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477216,16,4.19,67.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477217,17,4.18,71.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477217,17,4.18,71.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477217,17,4.18,71.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477217,17,4.18,71.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477217,17,4.18,71.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477217,17,4.18,71.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477218,18,4.17,75.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477218,18,4.17,75.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477218,18,4.17,75.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477218,18,4.17,75.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477218,18,4.17,75.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477218,18,4.17,75.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477220,19,4.16,79.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477220,19,4.16,79.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477220,19,4.16,79.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477220,19,4.16,79.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477220,19,4.16,79.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477220,19,4.16,79.0,2.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477221,20,4.1,82.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477221,20,4.1,82.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477221,20,4.1,82.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477221,20,4.1,82.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477221,20,4.1,82.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477221,20,4.1,82.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477222,21,4.0,84.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477222,21,4.0,84.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477222,21,4.0,84.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477222,21,4.0,84.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477222,21,4.0,84.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477222,21,4.0,84.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477223,22,4.09,90.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477223,22,4.09,90.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477223,22,4.09,90.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477223,22,4.09,90.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477223,22,4.09,90.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477223,22,4.09,90.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477224,23,4.22,97.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477224,23,4.22,97.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477224,23,4.22,97.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477224,23,4.22,97.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477224,23,4.22,97.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477224,23,4.22,97.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477225,24,4.46,107.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477225,24,4.46,107.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477225,24,4.46,107.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477225,24,4.46,107.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477225,24,4.46,107.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477225,24,4.46,107.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477225,24,4.46,107.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477226,25,4.6,115.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477226,25,4.6,115.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477226,25,4.6,115.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477226,25,4.6,115.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477226,25,4.6,115.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477226,25,4.6,115.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477227,26,4.62,120.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477227,26,4.62,120.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477227,26,4.62,120.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477227,26,4.62,120.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477227,26,4.62,120.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477227,26,4.62,120.0,3.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477228,27,4.67,126.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477228,27,4.67,126.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477228,27,4.67,126.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477228,27,4.67,126.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477228,27,4.67,126.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477228,27,4.67,126.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477229,28,4.61,129.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477229,28,4.61,129.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477229,28,4.61,129.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477229,28,4.61,129.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477229,28,4.61,129.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477229,28,4.61,129.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477230,29,4.59,133.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477230,29,4.59,133.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477230,29,4.59,133.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477230,29,4.59,133.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477230,29,4.59,133.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477230,29,4.59,133.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477232,30,4.83,145.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477232,30,4.83,145.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477232,30,4.83,145.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477232,30,4.83,145.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477232,30,4.83,145.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477232,30,4.83,145.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477233,31,4.94,153.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477233,31,4.94,153.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477233,31,4.94,153.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477233,31,4.94,153.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477233,31,4.94,153.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477233,31,4.94,153.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477233,31,4.94,153.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477234,32,4.84,155.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477234,32,4.84,155.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477234,32,4.84,155.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477234,32,4.84,155.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477234,32,4.84,155.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477234,32,4.84,155.0,4.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477235,33,4.82,159.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477235,33,4.82,159.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477235,33,4.82,159.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477235,33,4.82,159.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477235,33,4.82,159.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477235,33,4.82,159.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477238,34,4.85,165.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477238,34,4.85,165.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477238,34,4.85,165.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477238,34,4.85,165.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477238,34,4.85,165.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477238,34,4.85,165.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477238,34,4.85,165.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477239,35,4.89,171.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477239,35,4.89,171.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477239,35,4.89,171.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477239,35,4.89,171.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477239,35,4.89,171.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477239,35,4.89,171.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477241,36,4.92,177.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477241,36,4.92,177.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477241,36,4.92,177.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477241,36,4.92,177.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477241,36,4.92,177.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477241,36,4.92,177.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477242,37,4.86,180.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477242,37,4.86,180.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477242,37,4.86,180.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477242,37,4.86,180.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477242,37,4.86,180.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477242,37,4.86,180.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477243,38,4.89,186.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477243,38,4.89,186.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477243,38,4.89,186.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477243,38,4.89,186.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477243,38,4.89,186.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477243,38,4.89,186.0,5.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477244,39,5.0,195.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477244,39,5.0,195.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477244,39,5.0,195.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477244,39,5.0,195.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477244,39,5.0,195.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477244,39,5.0,195.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477246,40,5.0,200.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477246,40,5.0,200.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477246,40,5.0,200.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477246,40,5.0,200.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477246,40,5.0,200.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477246,40,5.0,200.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477247,41,5.05,207.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477247,41,5.05,207.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477247,41,5.05,207.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477247,41,5.05,207.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477247,41,5.05,207.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477247,41,5.05,207.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477248,42,5.0,210.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477248,42,5.0,210.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477248,42,5.0,210.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477248,42,5.0,210.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477248,42,5.0,210.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477248,42,5.0,210.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477248,42,5.0,210.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477248,42,5.0,210.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477253,43,4.98,214.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477253,43,4.98,214.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477253,43,4.98,214.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477253,43,4.98,214.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477253,43,4.98,214.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477253,43,4.98,214.0,6.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477255,44,5.02,221.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477255,44,5.02,221.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477255,44,5.02,221.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477255,44,5.02,221.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477255,44,5.02,221.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477255,44,5.02,221.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477255,44,5.02,221.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477256,45,5.0,225.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477256,45,5.0,225.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477256,45,5.0,225.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477256,45,5.0,225.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477256,45,5.0,225.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477256,45,5.0,225.0,7.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477260,46,4.91,226.0,9.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477260,46,4.91,226.0,9.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477260,46,4.91,226.0,9.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477260,46,4.91,226.0,9.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477260,46,4.91,226.0,9.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477260,46,4.91,226.0,9.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,6,False,,0,0,False,False
+477261,47,4.99,232.0,10.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,1,False,,0,0,False,False
+477261,47,4.99,232.0,10.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,2,False,,0,0,False,False
+477261,47,4.99,232.0,10.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,3,False,,0,0,False,False
+477261,47,4.99,232.0,10.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,4,False,,0,0,False,False
+477261,47,4.99,232.0,10.0,13983,Playoff Semi Final 2,12056,ICC Under 19 Men's World Cup 2022,1,229,India U19 Men,235,South Africa U19 Men,5,False,,0,0,False,False
+477262,1,0.0,0.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477262,1,0.0,0.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477262,1,0.0,0.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477262,1,0.0,0.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477262,1,0.0,0.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477262,1,0.0,0.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477263,2,0.5,1.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477263,2,0.5,1.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477263,2,0.5,1.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477263,2,0.5,1.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477263,2,0.5,1.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477263,2,0.5,1.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477264,3,2.67,8.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477264,3,2.67,8.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477264,3,2.67,8.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477264,3,2.67,8.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477264,3,2.67,8.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477264,3,2.67,8.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477266,4,3.0,12.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477266,4,3.0,12.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477266,4,3.0,12.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477266,4,3.0,12.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477266,4,3.0,12.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477266,4,3.0,12.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477267,5,3.2,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477267,5,3.2,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477267,5,3.2,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477267,5,3.2,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477267,5,3.2,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477267,5,3.2,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477267,5,3.2,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477268,6,2.67,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477268,6,2.67,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477268,6,2.67,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477268,6,2.67,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477268,6,2.67,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477268,6,2.67,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477269,7,2.29,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477269,7,2.29,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477269,7,2.29,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477269,7,2.29,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477269,7,2.29,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477269,7,2.29,16.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477271,8,2.62,21.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477271,8,2.62,21.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477271,8,2.62,21.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477271,8,2.62,21.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477271,8,2.62,21.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477271,8,2.62,21.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477272,9,3.11,28.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477272,9,3.11,28.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477272,9,3.11,28.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477272,9,3.11,28.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477272,9,3.11,28.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477272,9,3.11,28.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477272,9,3.11,28.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477273,10,3.8,38.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477273,10,3.8,38.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477273,10,3.8,38.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477273,10,3.8,38.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477273,10,3.8,38.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477273,10,3.8,38.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477274,11,5.0,55.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477274,11,5.0,55.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477274,11,5.0,55.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477274,11,5.0,55.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477274,11,5.0,55.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477274,11,5.0,55.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477274,11,5.0,55.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477274,11,5.0,55.0,1.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477279,12,4.92,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477279,12,4.92,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477279,12,4.92,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477279,12,4.92,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477279,12,4.92,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477279,12,4.92,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477280,13,4.54,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477280,13,4.54,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477280,13,4.54,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477280,13,4.54,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477280,13,4.54,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477280,13,4.54,59.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477282,14,4.36,61.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477282,14,4.36,61.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477282,14,4.36,61.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477282,14,4.36,61.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477282,14,4.36,61.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477282,14,4.36,61.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477286,15,4.27,64.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477286,15,4.27,64.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477286,15,4.27,64.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477286,15,4.27,64.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477286,15,4.27,64.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477286,15,4.27,64.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477287,16,4.38,70.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477287,16,4.38,70.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477287,16,4.38,70.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477287,16,4.38,70.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477287,16,4.38,70.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477287,16,4.38,70.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477288,17,4.35,74.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477288,17,4.35,74.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477288,17,4.35,74.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477288,17,4.35,74.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477288,17,4.35,74.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477288,17,4.35,74.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477289,18,4.33,78.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477289,18,4.33,78.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477289,18,4.33,78.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477289,18,4.33,78.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477289,18,4.33,78.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477289,18,4.33,78.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477290,19,4.16,79.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477290,19,4.16,79.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477290,19,4.16,79.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477290,19,4.16,79.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477290,19,4.16,79.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477290,19,4.16,79.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477291,20,4.1,82.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477291,20,4.1,82.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477291,20,4.1,82.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477291,20,4.1,82.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477291,20,4.1,82.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477291,20,4.1,82.0,2.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477292,21,3.95,83.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477292,21,3.95,83.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477292,21,3.95,83.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477292,21,3.95,83.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477292,21,3.95,83.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477292,21,3.95,83.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477293,22,4.05,89.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477293,22,4.05,89.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477293,22,4.05,89.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477293,22,4.05,89.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477293,22,4.05,89.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477293,22,4.05,89.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477297,23,4.0,92.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477297,23,4.0,92.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477297,23,4.0,92.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477297,23,4.0,92.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477297,23,4.0,92.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477297,23,4.0,92.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477300,24,3.92,94.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477300,24,3.92,94.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477300,24,3.92,94.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477300,24,3.92,94.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477300,24,3.92,94.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477300,24,3.92,94.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477300,24,3.92,94.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477300,24,3.92,94.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477301,25,3.84,96.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477301,25,3.84,96.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477301,25,3.84,96.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477301,25,3.84,96.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477301,25,3.84,96.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477301,25,3.84,96.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477308,26,3.73,97.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477308,26,3.73,97.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477308,26,3.73,97.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477308,26,3.73,97.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477308,26,3.73,97.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477308,26,3.73,97.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477309,27,3.63,98.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477309,27,3.63,98.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477309,27,3.63,98.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477309,27,3.63,98.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477309,27,3.63,98.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477309,27,3.63,98.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477309,27,3.63,98.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477310,28,3.82,107.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477310,28,3.82,107.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477310,28,3.82,107.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477310,28,3.82,107.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477310,28,3.82,107.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477310,28,3.82,107.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477311,29,3.72,108.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477311,29,3.72,108.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477311,29,3.72,108.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477311,29,3.72,108.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477311,29,3.72,108.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477311,29,3.72,108.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477312,30,3.83,115.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477312,30,3.83,115.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477312,30,3.83,115.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477312,30,3.83,115.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477312,30,3.83,115.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477312,30,3.83,115.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477313,31,3.84,119.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477313,31,3.84,119.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477313,31,3.84,119.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477313,31,3.84,119.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477313,31,3.84,119.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477313,31,3.84,119.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477314,32,3.97,127.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477314,32,3.97,127.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477314,32,3.97,127.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477314,32,3.97,127.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477314,32,3.97,127.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477314,32,3.97,127.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477315,33,3.88,128.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477315,33,3.88,128.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477315,33,3.88,128.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477315,33,3.88,128.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477315,33,3.88,128.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477315,33,3.88,128.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477316,34,3.88,132.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477316,34,3.88,132.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477316,34,3.88,132.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477316,34,3.88,132.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477316,34,3.88,132.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477316,34,3.88,132.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477317,35,3.8,133.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477317,35,3.8,133.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477317,35,3.8,133.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477317,35,3.8,133.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477317,35,3.8,133.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477317,35,3.8,133.0,3.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477319,36,3.83,138.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477319,36,3.83,138.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477319,36,3.83,138.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477319,36,3.83,138.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477319,36,3.83,138.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477319,36,3.83,138.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477321,37,3.84,142.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477321,37,3.84,142.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477321,37,3.84,142.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477321,37,3.84,142.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477321,37,3.84,142.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477321,37,3.84,142.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477321,37,3.84,142.0,4.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477324,38,3.92,149.0,5.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477324,38,3.92,149.0,5.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477324,38,3.92,149.0,5.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477324,38,3.92,149.0,5.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477324,38,3.92,149.0,5.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477324,38,3.92,149.0,5.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477325,39,3.85,150.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477325,39,3.85,150.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477325,39,3.85,150.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477325,39,3.85,150.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477325,39,3.85,150.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477325,39,3.85,150.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477330,40,3.8,152.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477330,40,3.8,152.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477330,40,3.8,152.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477330,40,3.8,152.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477330,40,3.8,152.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477330,40,3.8,152.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477331,41,3.83,157.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477331,41,3.83,157.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477331,41,3.83,157.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477331,41,3.83,157.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477331,41,3.83,157.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477331,41,3.83,157.0,7.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477332,42,3.9,164.0,8.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477332,42,3.9,164.0,8.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477332,42,3.9,164.0,8.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477332,42,3.9,164.0,8.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477332,42,3.9,164.0,8.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477332,42,3.9,164.0,8.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477333,43,3.84,165.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477333,43,3.84,165.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477333,43,3.84,165.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477333,43,3.84,165.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477333,43,3.84,165.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477333,43,3.84,165.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477334,44,3.91,172.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477334,44,3.91,172.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477334,44,3.91,172.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477334,44,3.91,172.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477334,44,3.91,172.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477334,44,3.91,172.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477335,45,4.11,185.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477335,45,4.11,185.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477335,45,4.11,185.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477335,45,4.11,185.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477335,45,4.11,185.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False
+477335,45,4.11,185.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,5,False,,0,0,False,False
+477335,45,4.11,185.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477335,45,4.11,185.0,9.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,6,False,,0,0,False,False
+477336,46,4.12,187.0,10.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,1,False,,0,0,False,False
+477336,46,4.12,187.0,10.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,2,False,,0,0,False,False
+477336,46,4.12,187.0,10.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,3,False,,0,0,False,False
+477336,46,4.12,187.0,10.0,13987,7th/8th Playoff,12056,ICC Under 19 Men's World Cup 2022,2,235,South Africa U19 Men,229,India U19 Men,4,False,,0,0,False,False

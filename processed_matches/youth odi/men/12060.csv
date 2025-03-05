@@ -1,0 +1,372 @@
+over_id,over_overNumber,over_runrate,over_totalInningRuns,over_totalInningWickets,id,matchName,fixtureId,fixtureName,inningNumber,battingTeamId,battingTeamName,bowlingTeamId,bowlingTeamName,ballNumber,isWicket,fieldingPosition,extras,runs,isBoundry,isAirNotControlled
+477498,1,2.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477498,1,2.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477498,1,2.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477498,1,2.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477498,1,2.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477498,1,2.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477499,2,1.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477499,2,1.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477499,2,1.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477499,2,1.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477499,2,1.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477499,2,1.0,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477500,3,0.67,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477500,3,0.67,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477500,3,0.67,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477500,3,0.67,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477500,3,0.67,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477500,3,0.67,2.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477501,4,1.25,5.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477501,4,1.25,5.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477501,4,1.25,5.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477501,4,1.25,5.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477501,4,1.25,5.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477501,4,1.25,5.0,0.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477502,5,1.2,6.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477502,5,1.2,6.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477502,5,1.2,6.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477502,5,1.2,6.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477502,5,1.2,6.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477502,5,1.2,6.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477504,6,1.17,7.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477504,6,1.17,7.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477504,6,1.17,7.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477504,6,1.17,7.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477504,6,1.17,7.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477504,6,1.17,7.0,1.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477506,7,1.0,7.0,2.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477506,7,1.0,7.0,2.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477506,7,1.0,7.0,2.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477506,7,1.0,7.0,2.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477506,7,1.0,7.0,2.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477506,7,1.0,7.0,2.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477508,8,0.88,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477508,8,0.88,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477508,8,0.88,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477508,8,0.88,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477508,8,0.88,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477508,8,0.88,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477511,9,0.78,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477511,9,0.78,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477511,9,0.78,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477511,9,0.78,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477511,9,0.78,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477511,9,0.78,7.0,3.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477513,10,1.0,10.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477513,10,1.0,10.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477513,10,1.0,10.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477513,10,1.0,10.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477513,10,1.0,10.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477513,10,1.0,10.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477515,11,1.18,13.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477515,11,1.18,13.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477515,11,1.18,13.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477515,11,1.18,13.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477515,11,1.18,13.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477515,11,1.18,13.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477517,12,1.5,18.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477517,12,1.5,18.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477517,12,1.5,18.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477517,12,1.5,18.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477517,12,1.5,18.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477517,12,1.5,18.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477519,13,1.69,22.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477519,13,1.69,22.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477519,13,1.69,22.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477519,13,1.69,22.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477519,13,1.69,22.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477519,13,1.69,22.0,4.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477520,14,1.93,27.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477520,14,1.93,27.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477520,14,1.93,27.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477520,14,1.93,27.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477520,14,1.93,27.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477520,14,1.93,27.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477524,15,1.93,29.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477524,15,1.93,29.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477524,15,1.93,29.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477524,15,1.93,29.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477524,15,1.93,29.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477524,15,1.93,29.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477526,16,1.94,31.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477526,16,1.94,31.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477526,16,1.94,31.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477526,16,1.94,31.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477526,16,1.94,31.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477526,16,1.94,31.0,5.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477528,17,2.06,35.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477528,17,2.06,35.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477528,17,2.06,35.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477528,17,2.06,35.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477528,17,2.06,35.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477528,17,2.06,35.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477529,18,2.22,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477529,18,2.22,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477529,18,2.22,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477529,18,2.22,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477529,18,2.22,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477529,18,2.22,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477529,18,2.22,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477529,18,2.22,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477532,19,2.11,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477532,19,2.11,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477532,19,2.11,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477532,19,2.11,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477532,19,2.11,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477532,19,2.11,40.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477534,20,2.05,41.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477534,20,2.05,41.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477534,20,2.05,41.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477534,20,2.05,41.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477534,20,2.05,41.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477534,20,2.05,41.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477537,21,2.19,46.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477537,21,2.19,46.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477537,21,2.19,46.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477537,21,2.19,46.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477537,21,2.19,46.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477537,21,2.19,46.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477539,22,2.14,47.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477539,22,2.14,47.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477539,22,2.14,47.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477539,22,2.14,47.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477539,22,2.14,47.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477539,22,2.14,47.0,6.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477543,23,2.17,50.0,7.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477543,23,2.17,50.0,7.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477543,23,2.17,50.0,7.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477543,23,2.17,50.0,7.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477543,23,2.17,50.0,7.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477543,23,2.17,50.0,7.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477547,24,2.12,51.0,8.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477547,24,2.12,51.0,8.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477547,24,2.12,51.0,8.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477547,24,2.12,51.0,8.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477547,24,2.12,51.0,8.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477547,24,2.12,51.0,8.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477547,24,2.12,51.0,8.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477550,25,2.04,51.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477550,25,2.04,51.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477550,25,2.04,51.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477550,25,2.04,51.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477550,25,2.04,51.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477550,25,2.04,51.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477553,26,2.04,53.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477553,26,2.04,53.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477553,26,2.04,53.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477553,26,2.04,53.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477553,26,2.04,53.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477553,26,2.04,53.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477556,27,2.0,54.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477556,27,2.0,54.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477556,27,2.0,54.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477556,27,2.0,54.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477556,27,2.0,54.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477556,27,2.0,54.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477559,28,2.39,67.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477559,28,2.39,67.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477559,28,2.39,67.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477559,28,2.39,67.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477559,28,2.39,67.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477559,28,2.39,67.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477562,29,2.59,75.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477562,29,2.59,75.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477562,29,2.59,75.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477562,29,2.59,75.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477562,29,2.59,75.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477562,29,2.59,75.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477562,29,2.59,75.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477566,30,2.6,78.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477566,30,2.6,78.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477566,30,2.6,78.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477566,30,2.6,78.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477566,30,2.6,78.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477566,30,2.6,78.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477568,31,2.61,81.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477568,31,2.61,81.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477568,31,2.61,81.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477568,31,2.61,81.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477568,31,2.61,81.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477568,31,2.61,81.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477568,31,2.61,81.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477573,32,2.59,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477573,32,2.59,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477573,32,2.59,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477573,32,2.59,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477573,32,2.59,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477573,32,2.59,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477574,33,2.52,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477574,33,2.52,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477574,33,2.52,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477574,33,2.52,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477574,33,2.52,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477574,33,2.52,83.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477577,34,2.85,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477577,34,2.85,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477577,34,2.85,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477577,34,2.85,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477577,34,2.85,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477577,34,2.85,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477579,35,2.77,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477579,35,2.77,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477579,35,2.77,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,3,False,,0,0,False,False
+477579,35,2.77,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,4,False,,0,0,False,False
+477579,35,2.77,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,5,False,,0,0,False,False
+477579,35,2.77,97.0,9.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,6,False,,0,0,False,False
+477581,36,2.76,97.0,10.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,1,False,,0,0,False,False
+477581,36,2.76,97.0,10.0,13993,Match 4,12060,ICC Under 19 Men's World Cup 2022,1,226,Bangladesh U19 Men,228,England U19 Men,2,False,,0,0,False,False
+477596,1,0.0,0.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477596,1,0.0,0.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477596,1,0.0,0.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477596,1,0.0,0.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477596,1,0.0,0.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477596,1,0.0,0.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477599,2,0.5,1.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477599,2,0.5,1.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477599,2,0.5,1.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477599,2,0.5,1.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477599,2,0.5,1.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477599,2,0.5,1.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477602,3,1.67,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477602,3,1.67,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477602,3,1.67,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477602,3,1.67,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477602,3,1.67,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477602,3,1.67,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477605,4,1.25,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477605,4,1.25,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477605,4,1.25,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477605,4,1.25,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477605,4,1.25,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477605,4,1.25,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477607,5,1.0,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477607,5,1.0,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477607,5,1.0,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477607,5,1.0,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477607,5,1.0,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477607,5,1.0,5.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477609,6,1.17,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477609,6,1.17,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477609,6,1.17,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477609,6,1.17,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477609,6,1.17,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477609,6,1.17,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477612,7,1.0,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477612,7,1.0,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477612,7,1.0,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477612,7,1.0,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477612,7,1.0,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477612,7,1.0,7.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477615,8,2.0,16.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477615,8,2.0,16.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477615,8,2.0,16.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477615,8,2.0,16.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477615,8,2.0,16.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477615,8,2.0,16.0,0.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477618,9,2.44,22.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477618,9,2.44,22.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477618,9,2.44,22.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477618,9,2.44,22.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477618,9,2.44,22.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477618,9,2.44,22.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477618,9,2.44,22.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477621,10,2.5,25.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477621,10,2.5,25.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477621,10,2.5,25.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477621,10,2.5,25.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477621,10,2.5,25.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477621,10,2.5,25.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477623,11,2.36,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477623,11,2.36,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477623,11,2.36,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477623,11,2.36,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477623,11,2.36,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477623,11,2.36,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477626,12,2.17,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477626,12,2.17,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477626,12,2.17,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477626,12,2.17,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477626,12,2.17,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477626,12,2.17,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477627,13,2.0,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477627,13,2.0,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477627,13,2.0,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477627,13,2.0,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477627,13,2.0,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477627,13,2.0,26.0,1.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477630,14,1.93,27.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477630,14,1.93,27.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477630,14,1.93,27.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477630,14,1.93,27.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477630,14,1.93,27.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477630,14,1.93,27.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477630,14,1.93,27.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477632,15,2.13,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477632,15,2.13,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477632,15,2.13,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477632,15,2.13,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477632,15,2.13,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477632,15,2.13,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477632,15,2.13,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477635,16,2.0,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477635,16,2.0,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477635,16,2.0,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477635,16,2.0,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477635,16,2.0,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477635,16,2.0,32.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477637,17,2.29,39.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477637,17,2.29,39.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477637,17,2.29,39.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477637,17,2.29,39.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477637,17,2.29,39.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477637,17,2.29,39.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477639,18,2.67,48.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477639,18,2.67,48.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477639,18,2.67,48.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477639,18,2.67,48.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477639,18,2.67,48.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477639,18,2.67,48.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477641,19,2.68,51.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477641,19,2.68,51.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477641,19,2.68,51.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477641,19,2.68,51.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477641,19,2.68,51.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477641,19,2.68,51.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477643,20,3.2,64.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477643,20,3.2,64.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477643,20,3.2,64.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477643,20,3.2,64.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477643,20,3.2,64.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477643,20,3.2,64.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477645,21,3.29,69.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477645,21,3.29,69.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477645,21,3.29,69.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477645,21,3.29,69.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477645,21,3.29,69.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477645,21,3.29,69.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477646,22,3.23,71.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477646,22,3.23,71.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477646,22,3.23,71.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477646,22,3.23,71.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477646,22,3.23,71.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477646,22,3.23,71.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477648,23,3.17,73.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477648,23,3.17,73.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477648,23,3.17,73.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477648,23,3.17,73.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477648,23,3.17,73.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477648,23,3.17,73.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477650,24,3.42,82.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477650,24,3.42,82.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477650,24,3.42,82.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477650,24,3.42,82.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477650,24,3.42,82.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477650,24,3.42,82.0,2.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477652,25,3.88,97.0,3.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False
+477652,25,3.88,97.0,3.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,2,False,,0,0,False,False
+477652,25,3.88,97.0,3.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,3,False,,0,0,False,False
+477652,25,3.88,97.0,3.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,4,False,,0,0,False,False
+477652,25,3.88,97.0,3.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,5,False,,0,0,False,False
+477652,25,3.88,97.0,3.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,6,False,,0,0,False,False
+477653,26,3.9,98.0,3.0,13996,Final,12060,ICC Under 19 Men's World Cup 2022,2,228,England U19 Men,226,Bangladesh U19 Men,1,False,,0,0,False,False

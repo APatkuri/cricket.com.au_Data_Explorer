@@ -100,8 +100,8 @@ def expand_df_columns(col_names, df):
     
     return df_final
 
-def fetch_year_data(year, is_completed):
-    url = f"https://apiv2.cricket.com.au/web/fixtures/yearfilter?isCompleted={is_completed}&year={year}&limit=999&isInningInclude=true&jsconfig=eccn%3Atrue&format=json"
+def fetch_year_data(year, is_completed, is_women_match):
+    url = f"https://apiv2.cricket.com.au/web/fixtures/yearfilter?isWomenMatch={is_women_match}&isCompleted={is_completed}&year={year}&limit=999&isInningInclude=true&jsconfig=eccn%3Atrue&format=json"
     try:
         response = requests.get(url, timeout=100)
         data = response.json()
@@ -127,7 +127,8 @@ def sched_func():
         futures = []
         for year in range(current_year, current_year+2):
             for is_completed in ["true", "false"]:
-                futures.append(executor.submit(fetch_year_data, year, is_completed))
+                for is_women_match in ["true", "false"]:
+                    futures.append(executor.submit(fetch_year_data, year, is_completed, is_women_match))
                 
         year_data = []
         for future in futures:
@@ -164,7 +165,15 @@ def process_match_batch(matches, player_dict, team_dict, comp_dict, match_comp_d
     live_matches = set()
     if os.path.exists(live_matches_file):
         with open(live_matches_file, 'r') as f:
-            live_matches = set(json.load(f))
+            # live_matches = set(json.load(f))
+            try:
+                data = json.load(f)
+                if data:  # If data is not empty (not an empty list)
+                    live_matches = set(data)
+                else:
+                    print(f"{live_matches_file} contains an empty list. No live matches loaded.")
+            except json.JSONDecodeError:
+                print(f"Error decoding JSON from {live_matches_file}. File may be corrupted.")
     
     # Check for matches that were previously live but now completed
     completed_matches = set()

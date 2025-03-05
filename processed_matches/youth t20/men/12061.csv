@@ -1,0 +1,347 @@
+over_id,over_overNumber,over_runrate,over_totalInningRuns,over_totalInningWickets,id,matchName,fixtureId,fixtureName,inningNumber,battingTeamId,battingTeamName,bowlingTeamId,bowlingTeamName,ballNumber,isWicket,fieldingPosition,extras,runs,isBoundry,isAirNotControlled
+477776,1,7.0,7.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477776,1,7.0,7.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477776,1,7.0,7.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477776,1,7.0,7.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477776,1,7.0,7.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477776,1,7.0,7.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477776,1,7.0,7.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477779,2,4.5,9.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477779,2,4.5,9.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477779,2,4.5,9.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477779,2,4.5,9.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477779,2,4.5,9.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477779,2,4.5,9.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477779,2,4.5,9.0,0.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477781,3,3.67,11.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477781,3,3.67,11.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477781,3,3.67,11.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477781,3,3.67,11.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477781,3,3.67,11.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477781,3,3.67,11.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477783,4,3.25,13.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477783,4,3.25,13.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477783,4,3.25,13.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477783,4,3.25,13.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477783,4,3.25,13.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477783,4,3.25,13.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477783,4,3.25,13.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477783,4,3.25,13.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477785,5,3.2,16.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477785,5,3.2,16.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477785,5,3.2,16.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477785,5,3.2,16.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477785,5,3.2,16.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477785,5,3.2,16.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477787,6,3.33,20.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477787,6,3.33,20.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477787,6,3.33,20.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477787,6,3.33,20.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477787,6,3.33,20.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477787,6,3.33,20.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477790,7,3.43,24.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477790,7,3.43,24.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477790,7,3.43,24.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477790,7,3.43,24.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477790,7,3.43,24.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477790,7,3.43,24.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477792,8,3.5,28.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477792,8,3.5,28.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477792,8,3.5,28.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477792,8,3.5,28.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477792,8,3.5,28.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477792,8,3.5,28.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477792,8,3.5,28.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477792,8,3.5,28.0,1.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477794,9,3.33,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477794,9,3.33,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477794,9,3.33,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477794,9,3.33,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477794,9,3.33,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477794,9,3.33,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477794,9,3.33,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477797,10,3.0,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477797,10,3.0,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477797,10,3.0,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477797,10,3.0,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477797,10,3.0,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477797,10,3.0,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477797,10,3.0,30.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477799,11,3.18,35.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477799,11,3.18,35.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477799,11,3.18,35.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477799,11,3.18,35.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477799,11,3.18,35.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477799,11,3.18,35.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477801,12,3.33,40.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477801,12,3.33,40.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477801,12,3.33,40.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477801,12,3.33,40.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477801,12,3.33,40.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477801,12,3.33,40.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477803,13,3.15,41.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477803,13,3.15,41.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477803,13,3.15,41.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477803,13,3.15,41.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477803,13,3.15,41.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477803,13,3.15,41.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477803,13,3.15,41.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477804,14,3.0,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477804,14,3.0,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477804,14,3.0,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477804,14,3.0,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477804,14,3.0,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477804,14,3.0,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477806,15,2.8,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477806,15,2.8,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477806,15,2.8,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477806,15,2.8,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477806,15,2.8,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477806,15,2.8,42.0,3.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477808,16,2.62,42.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477808,16,2.62,42.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477808,16,2.62,42.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477808,16,2.62,42.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477808,16,2.62,42.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477808,16,2.62,42.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477811,17,2.59,44.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477811,17,2.59,44.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477811,17,2.59,44.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477811,17,2.59,44.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477811,17,2.59,44.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477811,17,2.59,44.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477813,18,2.83,51.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477813,18,2.83,51.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477813,18,2.83,51.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477813,18,2.83,51.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477813,18,2.83,51.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477813,18,2.83,51.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477814,19,2.89,55.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477814,19,2.89,55.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477814,19,2.89,55.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477814,19,2.89,55.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477814,19,2.89,55.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477814,19,2.89,55.0,4.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477817,20,2.85,57.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477817,20,2.85,57.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477817,20,2.85,57.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477817,20,2.85,57.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477817,20,2.85,57.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477817,20,2.85,57.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477817,20,2.85,57.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477821,21,2.81,59.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477821,21,2.81,59.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477821,21,2.81,59.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477821,21,2.81,59.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477821,21,2.81,59.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477821,21,2.81,59.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477822,22,2.77,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477822,22,2.77,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477822,22,2.77,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477822,22,2.77,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477822,22,2.77,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477822,22,2.77,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477822,22,2.77,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477824,23,2.65,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477824,23,2.65,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477824,23,2.65,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477824,23,2.65,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477824,23,2.65,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477824,23,2.65,61.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477826,24,2.67,64.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477826,24,2.67,64.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477826,24,2.67,64.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477826,24,2.67,64.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477826,24,2.67,64.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477826,24,2.67,64.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477827,25,2.88,72.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477827,25,2.88,72.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477827,25,2.88,72.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477827,25,2.88,72.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477827,25,2.88,72.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477827,25,2.88,72.0,5.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477829,26,2.77,72.0,6.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477829,26,2.77,72.0,6.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477829,26,2.77,72.0,6.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477829,26,2.77,72.0,6.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477829,26,2.77,72.0,6.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477829,26,2.77,72.0,6.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477830,27,2.67,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477830,27,2.67,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477830,27,2.67,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477830,27,2.67,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477830,27,2.67,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477830,27,2.67,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477834,28,2.57,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477834,28,2.57,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477834,28,2.57,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477834,28,2.57,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477834,28,2.57,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477834,28,2.57,72.0,7.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477836,29,2.52,73.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477836,29,2.52,73.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477836,29,2.52,73.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477836,29,2.52,73.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477836,29,2.52,73.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477836,29,2.52,73.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477838,30,2.5,75.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477838,30,2.5,75.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477838,30,2.5,75.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477838,30,2.5,75.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477838,30,2.5,75.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477838,30,2.5,75.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477839,31,2.65,82.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477839,31,2.65,82.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477839,31,2.65,82.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477839,31,2.65,82.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477839,31,2.65,82.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477839,31,2.65,82.0,8.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477842,32,2.59,83.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477842,32,2.59,83.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477842,32,2.59,83.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477842,32,2.59,83.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477842,32,2.59,83.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477842,32,2.59,83.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477844,33,2.61,86.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477844,33,2.61,86.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477844,33,2.61,86.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477844,33,2.61,86.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477844,33,2.61,86.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477844,33,2.61,86.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477846,34,2.65,90.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477846,34,2.65,90.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477846,34,2.65,90.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477846,34,2.65,90.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477846,34,2.65,90.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477846,34,2.65,90.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477848,35,2.69,94.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477848,35,2.69,94.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,2,False,,0,0,False,False
+477848,35,2.69,94.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,3,False,,0,0,False,False
+477848,35,2.69,94.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,4,False,,0,0,False,False
+477848,35,2.69,94.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,5,False,,0,0,False,False
+477848,35,2.69,94.0,9.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,6,False,,0,0,False,False
+477851,36,2.71,95.0,10.0,14011,2nd T20I,12061,ICC Under 19 Men's World Cup 2022,1,640,Scotland U19 Men,237,West Indies U19 Men,1,False,,0,0,False,False
+477860,1,2.0,2.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477860,1,2.0,2.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477860,1,2.0,2.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477860,1,2.0,2.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477860,1,2.0,2.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477860,1,2.0,2.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477862,2,2.0,4.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477862,2,2.0,4.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477862,2,2.0,4.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477862,2,2.0,4.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477862,2,2.0,4.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477862,2,2.0,4.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477864,3,3.33,10.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477864,3,3.33,10.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477864,3,3.33,10.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477864,3,3.33,10.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477864,3,3.33,10.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477864,3,3.33,10.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477864,3,3.33,10.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477864,3,3.33,10.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477866,4,4.5,18.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477866,4,4.5,18.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477866,4,4.5,18.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477866,4,4.5,18.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477866,4,4.5,18.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477866,4,4.5,18.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477866,4,4.5,18.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477868,5,5.0,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477868,5,5.0,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477868,5,5.0,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477868,5,5.0,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477868,5,5.0,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477868,5,5.0,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477869,6,4.17,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477869,6,4.17,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477869,6,4.17,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477869,6,4.17,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477869,6,4.17,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477869,6,4.17,25.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477870,7,5.29,37.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477870,7,5.29,37.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477870,7,5.29,37.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477870,7,5.29,37.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477870,7,5.29,37.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477870,7,5.29,37.0,0.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477871,8,4.75,38.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477871,8,4.75,38.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477871,8,4.75,38.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477871,8,4.75,38.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477871,8,4.75,38.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477871,8,4.75,38.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477871,8,4.75,38.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477872,9,4.67,42.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477872,9,4.67,42.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477872,9,4.67,42.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477872,9,4.67,42.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477872,9,4.67,42.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477872,9,4.67,42.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477877,10,4.7,47.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477877,10,4.7,47.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477877,10,4.7,47.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477877,10,4.7,47.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477877,10,4.7,47.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477877,10,4.7,47.0,1.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477878,11,4.45,49.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477878,11,4.45,49.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477878,11,4.45,49.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477878,11,4.45,49.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477878,11,4.45,49.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477878,11,4.45,49.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477879,12,4.25,51.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477879,12,4.25,51.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477879,12,4.25,51.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477879,12,4.25,51.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477879,12,4.25,51.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477879,12,4.25,51.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477879,12,4.25,51.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477881,13,4.15,54.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477881,13,4.15,54.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477881,13,4.15,54.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477881,13,4.15,54.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477881,13,4.15,54.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477881,13,4.15,54.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477882,14,4.57,64.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477882,14,4.57,64.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477882,14,4.57,64.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477882,14,4.57,64.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477882,14,4.57,64.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477882,14,4.57,64.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477884,15,4.4,66.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477884,15,4.4,66.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477884,15,4.4,66.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477884,15,4.4,66.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477884,15,4.4,66.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477884,15,4.4,66.0,2.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477886,16,4.19,67.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477886,16,4.19,67.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477886,16,4.19,67.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477886,16,4.19,67.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477886,16,4.19,67.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477886,16,4.19,67.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477888,17,4.47,76.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477888,17,4.47,76.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477888,17,4.47,76.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477888,17,4.47,76.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477888,17,4.47,76.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477888,17,4.47,76.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477888,17,4.47,76.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477890,18,4.44,80.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477890,18,4.44,80.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477890,18,4.44,80.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477890,18,4.44,80.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477890,18,4.44,80.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477890,18,4.44,80.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477892,19,4.37,83.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477892,19,4.37,83.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477892,19,4.37,83.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477892,19,4.37,83.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False
+477892,19,4.37,83.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,5,False,,0,0,False,False
+477892,19,4.37,83.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,6,False,,0,0,False,False
+477894,20,4.95,96.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,1,False,,0,0,False,False
+477894,20,4.95,96.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,2,False,,0,0,False,False
+477894,20,4.95,96.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,3,False,,0,0,False,False
+477894,20,4.95,96.0,3.0,14013,,12061,ICC Under 19 Men's World Cup 2022,2,237,West Indies U19 Men,640,Scotland U19 Men,4,False,,0,0,False,False

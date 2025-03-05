@@ -1,0 +1,546 @@
+over_id,over_overNumber,over_runrate,over_totalInningRuns,over_totalInningWickets,id,matchName,fixtureId,fixtureName,inningNumber,battingTeamId,battingTeamName,bowlingTeamId,bowlingTeamName,ballNumber,isWicket,fieldingPosition,extras,runs,isBoundry,isAirNotControlled
+477777,1,5.0,5.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477777,1,5.0,5.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477777,1,5.0,5.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477777,1,5.0,5.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477777,1,5.0,5.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477777,1,5.0,5.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477778,2,4.5,9.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477778,2,4.5,9.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477778,2,4.5,9.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477778,2,4.5,9.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477778,2,4.5,9.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477778,2,4.5,9.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477780,3,4.0,12.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477780,3,4.0,12.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477780,3,4.0,12.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477780,3,4.0,12.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477780,3,4.0,12.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477780,3,4.0,12.0,0.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477782,4,3.0,12.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477782,4,3.0,12.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477782,4,3.0,12.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477782,4,3.0,12.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477782,4,3.0,12.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477782,4,3.0,12.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477784,5,3.6,18.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477784,5,3.6,18.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477784,5,3.6,18.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477784,5,3.6,18.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477784,5,3.6,18.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477784,5,3.6,18.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477786,6,4.0,24.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477786,6,4.0,24.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477786,6,4.0,24.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477786,6,4.0,24.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477786,6,4.0,24.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477786,6,4.0,24.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477788,7,3.86,27.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477788,7,3.86,27.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477788,7,3.86,27.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477788,7,3.86,27.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477788,7,3.86,27.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477788,7,3.86,27.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477791,8,3.62,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477791,8,3.62,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477791,8,3.62,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477791,8,3.62,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477791,8,3.62,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477791,8,3.62,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477793,9,3.22,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477793,9,3.22,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477793,9,3.22,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477793,9,3.22,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477793,9,3.22,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477793,9,3.22,29.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477795,10,3.3,33.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477795,10,3.3,33.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477795,10,3.3,33.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477795,10,3.3,33.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477795,10,3.3,33.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477795,10,3.3,33.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477795,10,3.3,33.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477796,11,3.36,37.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477796,11,3.36,37.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477796,11,3.36,37.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477796,11,3.36,37.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477796,11,3.36,37.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477796,11,3.36,37.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477798,12,3.17,38.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477798,12,3.17,38.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477798,12,3.17,38.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477798,12,3.17,38.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477798,12,3.17,38.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477798,12,3.17,38.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477800,13,3.46,45.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477800,13,3.46,45.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477800,13,3.46,45.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477800,13,3.46,45.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477800,13,3.46,45.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477800,13,3.46,45.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477800,13,3.46,45.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477800,13,3.46,45.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477800,13,3.46,45.0,1.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477802,14,3.29,46.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477802,14,3.29,46.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477802,14,3.29,46.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477802,14,3.29,46.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477802,14,3.29,46.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477802,14,3.29,46.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477805,15,3.53,53.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477805,15,3.53,53.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477805,15,3.53,53.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477805,15,3.53,53.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477805,15,3.53,53.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477805,15,3.53,53.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477807,16,3.62,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477807,16,3.62,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477807,16,3.62,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477807,16,3.62,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477807,16,3.62,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477807,16,3.62,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477809,17,3.41,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477809,17,3.41,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477809,17,3.41,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477809,17,3.41,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477809,17,3.41,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477809,17,3.41,58.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477810,18,3.39,61.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477810,18,3.39,61.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477810,18,3.39,61.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477810,18,3.39,61.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477810,18,3.39,61.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477810,18,3.39,61.0,2.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477812,19,3.32,63.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477812,19,3.32,63.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477812,19,3.32,63.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477812,19,3.32,63.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477812,19,3.32,63.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477812,19,3.32,63.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477815,20,3.3,66.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477815,20,3.3,66.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477815,20,3.3,66.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477815,20,3.3,66.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477815,20,3.3,66.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477815,20,3.3,66.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477816,21,3.38,71.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477816,21,3.38,71.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477816,21,3.38,71.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477816,21,3.38,71.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477816,21,3.38,71.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477816,21,3.38,71.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477819,22,3.45,76.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477819,22,3.45,76.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477819,22,3.45,76.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477819,22,3.45,76.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477819,22,3.45,76.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477819,22,3.45,76.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477820,23,3.57,82.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477820,23,3.57,82.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477820,23,3.57,82.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477820,23,3.57,82.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477820,23,3.57,82.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477820,23,3.57,82.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477823,24,3.67,88.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477823,24,3.67,88.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477823,24,3.67,88.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477823,24,3.67,88.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477823,24,3.67,88.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477823,24,3.67,88.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477825,25,3.92,98.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477825,25,3.92,98.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477825,25,3.92,98.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477825,25,3.92,98.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477825,25,3.92,98.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477825,25,3.92,98.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477828,26,3.81,99.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477828,26,3.81,99.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477828,26,3.81,99.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477828,26,3.81,99.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477828,26,3.81,99.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477828,26,3.81,99.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477828,26,3.81,99.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477831,27,3.89,105.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477831,27,3.89,105.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477831,27,3.89,105.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477831,27,3.89,105.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477831,27,3.89,105.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477831,27,3.89,105.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477832,28,3.82,107.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477832,28,3.82,107.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477832,28,3.82,107.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477832,28,3.82,107.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477832,28,3.82,107.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477832,28,3.82,107.0,3.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477833,29,3.83,111.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477833,29,3.83,111.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477833,29,3.83,111.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477833,29,3.83,111.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477833,29,3.83,111.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477833,29,3.83,111.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477835,30,3.73,112.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477835,30,3.73,112.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477835,30,3.73,112.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477835,30,3.73,112.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477835,30,3.73,112.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477835,30,3.73,112.0,4.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477837,31,3.68,114.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477837,31,3.68,114.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477837,31,3.68,114.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477837,31,3.68,114.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477837,31,3.68,114.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477837,31,3.68,114.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477840,32,3.59,115.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477840,32,3.59,115.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477840,32,3.59,115.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477840,32,3.59,115.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477840,32,3.59,115.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477840,32,3.59,115.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477841,33,3.61,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477841,33,3.61,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477841,33,3.61,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477841,33,3.61,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477841,33,3.61,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477841,33,3.61,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477843,34,3.5,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477843,34,3.5,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477843,34,3.5,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477843,34,3.5,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477843,34,3.5,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477843,34,3.5,119.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477845,35,3.43,120.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477845,35,3.43,120.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477845,35,3.43,120.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477845,35,3.43,120.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477845,35,3.43,120.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477845,35,3.43,120.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477847,36,3.42,123.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477847,36,3.42,123.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477847,36,3.42,123.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477847,36,3.42,123.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477847,36,3.42,123.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477847,36,3.42,123.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477849,37,3.38,125.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477849,37,3.38,125.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477849,37,3.38,125.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477849,37,3.38,125.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477849,37,3.38,125.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477849,37,3.38,125.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477850,38,3.37,128.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477850,38,3.37,128.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477850,38,3.37,128.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477850,38,3.37,128.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477850,38,3.37,128.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477850,38,3.37,128.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477852,39,3.38,132.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477852,39,3.38,132.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477852,39,3.38,132.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477852,39,3.38,132.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477852,39,3.38,132.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477852,39,3.38,132.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477852,39,3.38,132.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477853,40,3.35,134.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477853,40,3.35,134.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477853,40,3.35,134.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477853,40,3.35,134.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477853,40,3.35,134.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477853,40,3.35,134.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477854,41,3.34,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477854,41,3.34,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477854,41,3.34,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477854,41,3.34,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477854,41,3.34,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477854,41,3.34,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477855,42,3.26,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477855,42,3.26,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477855,42,3.26,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477855,42,3.26,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477855,42,3.26,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477855,42,3.26,137.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477856,43,3.23,139.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477856,43,3.23,139.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477856,43,3.23,139.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477856,43,3.23,139.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477856,43,3.23,139.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477856,43,3.23,139.0,6.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477857,44,3.27,144.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477857,44,3.27,144.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477857,44,3.27,144.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477857,44,3.27,144.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477857,44,3.27,144.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477857,44,3.27,144.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477858,45,3.29,148.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477858,45,3.29,148.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477858,45,3.29,148.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477858,45,3.29,148.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477858,45,3.29,148.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477858,45,3.29,148.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477859,46,3.37,155.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477859,46,3.37,155.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477859,46,3.37,155.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477859,46,3.37,155.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477859,46,3.37,155.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477859,46,3.37,155.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477859,46,3.37,155.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477859,46,3.37,155.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477859,46,3.37,155.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477861,47,3.47,163.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477861,47,3.47,163.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477861,47,3.47,163.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477861,47,3.47,163.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477861,47,3.47,163.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477861,47,3.47,163.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477863,48,3.44,165.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477863,48,3.44,165.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477863,48,3.44,165.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477863,48,3.44,165.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477863,48,3.44,165.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477863,48,3.44,165.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477863,48,3.44,165.0,7.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477865,49,3.45,169.0,9.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477865,49,3.45,169.0,9.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477865,49,3.45,169.0,9.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477865,49,3.45,169.0,9.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477865,49,3.45,169.0,9.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477865,49,3.45,169.0,9.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477867,50,3.5,175.0,10.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,1,False,,0,0,False,False
+477867,50,3.5,175.0,10.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477867,50,3.5,175.0,10.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,2,False,,0,0,False,False
+477867,50,3.5,175.0,10.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,3,False,,0,0,False,False
+477867,50,3.5,175.0,10.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477867,50,3.5,175.0,10.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,4,False,,0,0,False,False
+477867,50,3.5,175.0,10.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,5,False,,0,0,False,False
+477867,50,3.5,175.0,10.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477867,50,3.5,175.0,10.0,13995,Match 6,12062,ICC Under 19 Men's World Cup 2022,1,225,Australia U19 Men,236,,6,False,,0,0,False,False
+477880,1,1.0,1.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477880,1,1.0,1.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477880,1,1.0,1.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477880,1,1.0,1.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477880,1,1.0,1.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477880,1,1.0,1.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477880,1,1.0,1.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477883,2,2.5,5.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477883,2,2.5,5.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477883,2,2.5,5.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477883,2,2.5,5.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477883,2,2.5,5.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477883,2,2.5,5.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477883,2,2.5,5.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477885,3,4.33,13.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477885,3,4.33,13.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477885,3,4.33,13.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477885,3,4.33,13.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477885,3,4.33,13.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477885,3,4.33,13.0,0.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477887,4,4.25,17.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477887,4,4.25,17.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477887,4,4.25,17.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477887,4,4.25,17.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477887,4,4.25,17.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477887,4,4.25,17.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477887,4,4.25,17.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477889,5,4.0,20.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477889,5,4.0,20.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477889,5,4.0,20.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477889,5,4.0,20.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477889,5,4.0,20.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477889,5,4.0,20.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477891,6,4.67,28.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477891,6,4.67,28.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477891,6,4.67,28.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477891,6,4.67,28.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477891,6,4.67,28.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477891,6,4.67,28.0,1.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477893,7,5.86,41.0,2.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477893,7,5.86,41.0,2.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477893,7,5.86,41.0,2.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477893,7,5.86,41.0,2.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477893,7,5.86,41.0,2.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477893,7,5.86,41.0,2.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477893,7,5.86,41.0,2.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477893,7,5.86,41.0,2.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477896,8,5.12,41.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477896,8,5.12,41.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477896,8,5.12,41.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477896,8,5.12,41.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477896,8,5.12,41.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477896,8,5.12,41.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477897,9,4.89,44.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477897,9,4.89,44.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477897,9,4.89,44.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477897,9,4.89,44.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477897,9,4.89,44.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477897,9,4.89,44.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477898,10,4.6,46.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477898,10,4.6,46.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477898,10,4.6,46.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477898,10,4.6,46.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477898,10,4.6,46.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477898,10,4.6,46.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477899,11,4.36,48.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477899,11,4.36,48.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477899,11,4.36,48.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477899,11,4.36,48.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477899,11,4.36,48.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477899,11,4.36,48.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477900,12,4.08,49.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477900,12,4.08,49.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477900,12,4.08,49.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477900,12,4.08,49.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477900,12,4.08,49.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477900,12,4.08,49.0,3.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477901,13,3.77,49.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477901,13,3.77,49.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477901,13,3.77,49.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477901,13,3.77,49.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477901,13,3.77,49.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477901,13,3.77,49.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477902,14,4.07,57.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477902,14,4.07,57.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477902,14,4.07,57.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477902,14,4.07,57.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477902,14,4.07,57.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477902,14,4.07,57.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477903,15,4.33,65.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477903,15,4.33,65.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477903,15,4.33,65.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477903,15,4.33,65.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477903,15,4.33,65.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477903,15,4.33,65.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477907,16,4.19,67.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477907,16,4.19,67.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477907,16,4.19,67.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477907,16,4.19,67.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477907,16,4.19,67.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477907,16,4.19,67.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477908,17,4.35,74.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477908,17,4.35,74.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477908,17,4.35,74.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477908,17,4.35,74.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477908,17,4.35,74.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477908,17,4.35,74.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477909,18,4.22,76.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477909,18,4.22,76.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477909,18,4.22,76.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477909,18,4.22,76.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477909,18,4.22,76.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477909,18,4.22,76.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477910,19,4.63,88.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477910,19,4.63,88.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477910,19,4.63,88.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477910,19,4.63,88.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477910,19,4.63,88.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477910,19,4.63,88.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477911,20,4.5,90.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477911,20,4.5,90.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477911,20,4.5,90.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477911,20,4.5,90.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477911,20,4.5,90.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477911,20,4.5,90.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477911,20,4.5,90.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477912,21,4.52,95.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477912,21,4.52,95.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477912,21,4.52,95.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477912,21,4.52,95.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477912,21,4.52,95.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477912,21,4.52,95.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477912,21,4.52,95.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477913,22,4.59,101.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477913,22,4.59,101.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477913,22,4.59,101.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477913,22,4.59,101.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477913,22,4.59,101.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477913,22,4.59,101.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477913,22,4.59,101.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477914,23,4.57,105.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477914,23,4.57,105.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477914,23,4.57,105.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477914,23,4.57,105.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477914,23,4.57,105.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477914,23,4.57,105.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477915,24,4.5,108.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477915,24,4.5,108.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477915,24,4.5,108.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477915,24,4.5,108.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477915,24,4.5,108.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477915,24,4.5,108.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477918,25,4.52,113.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477918,25,4.52,113.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477918,25,4.52,113.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477918,25,4.52,113.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477918,25,4.52,113.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477918,25,4.52,113.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477919,26,4.54,118.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477919,26,4.54,118.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477919,26,4.54,118.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477919,26,4.54,118.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477919,26,4.54,118.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477919,26,4.54,118.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477920,27,4.41,119.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477920,27,4.41,119.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477920,27,4.41,119.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477920,27,4.41,119.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477920,27,4.41,119.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477920,27,4.41,119.0,4.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477921,28,4.32,121.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477921,28,4.32,121.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477921,28,4.32,121.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477921,28,4.32,121.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477921,28,4.32,121.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477921,28,4.32,121.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477922,29,4.24,123.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477922,29,4.24,123.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477922,29,4.24,123.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477922,29,4.24,123.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477922,29,4.24,123.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477922,29,4.24,123.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477923,30,4.13,124.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477923,30,4.13,124.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477923,30,4.13,124.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477923,30,4.13,124.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477923,30,4.13,124.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477923,30,4.13,124.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477924,31,4.16,129.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477924,31,4.16,129.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477924,31,4.16,129.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477924,31,4.16,129.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477924,31,4.16,129.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477924,31,4.16,129.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477925,32,4.09,131.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477925,32,4.09,131.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477925,32,4.09,131.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477925,32,4.09,131.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477925,32,4.09,131.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477925,32,4.09,131.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477926,33,4.24,140.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477926,33,4.24,140.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477926,33,4.24,140.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477926,33,4.24,140.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477926,33,4.24,140.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477926,33,4.24,140.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477927,34,4.35,148.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477927,34,4.35,148.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477927,34,4.35,148.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477927,34,4.35,148.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477927,34,4.35,148.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477927,34,4.35,148.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477928,35,4.51,158.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477928,35,4.51,158.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477928,35,4.51,158.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477928,35,4.51,158.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477928,35,4.51,158.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477928,35,4.51,158.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477928,35,4.51,158.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477928,35,4.51,158.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477930,36,4.69,169.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477930,36,4.69,169.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477930,36,4.69,169.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477930,36,4.69,169.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477930,36,4.69,169.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477930,36,4.69,169.0,5.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
+477931,37,4.78,177.0,6.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,1,False,,0,0,False,False
+477931,37,4.78,177.0,6.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,2,False,,0,0,False,False
+477931,37,4.78,177.0,6.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,3,False,,0,0,False,False
+477931,37,4.78,177.0,6.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,4,False,,0,0,False,False
+477931,37,4.78,177.0,6.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,5,False,,0,0,False,False
+477931,37,4.78,177.0,6.0,14014,,12062,ICC Under 19 Men's World Cup 2022,2,236,,225,Australia U19 Men,6,False,,0,0,False,False
