@@ -150,9 +150,19 @@ if(format_type and comp_name and match_name):
         match_bowling_df = match_df[(match_df['bowlingTeamName'].isin(selected_bowl_teams))]
 
         if selected_bowl_teams:
-            max_overs = match_df[match_df['bowlingTeamName'].isin(selected_bowl_teams)]['over_overNumber'].max()
-            over_range = st.slider("Overs", 0, max_overs, (0, max_overs))
-            match_bowling_df = match_bowling_df[match_bowling_df['over_overNumber'].between(over_range[0], over_range[1])]
+            selected_innings = st.multiselect(
+                'Innings',
+                match_bowling_df['inningNumber'].unique(),
+                default=match_bowling_df['inningNumber'].unique(),
+                placeholder="Choose an option"
+            )
+
+            match_bowling_df = match_bowling_df[(match_bowling_df['inningNumber'].isin(selected_innings))]
+
+            if selected_innings:
+                max_overs = match_bowling_df['over_overNumber'].max()
+                over_range = st.slider("Overs", 0, max_overs, (0, max_overs))
+                match_bowling_df = match_bowling_df[match_bowling_df['over_overNumber'].between(over_range[0], over_range[1])]
         # else:
             # match_bowling_df = pd.DataFrame()
 
@@ -309,8 +319,8 @@ if(format_type and comp_name and match_name):
                 BFCtrl = ('ballNumber', lambda x: calculate_foot_ctrl(match_bowling_df_copy.loc[x.index], "BackFoot")),
                 SpinCtrl = ('ballNumber', lambda x: calculate_bowl_type_ctrl(match_bowling_df_copy.loc[x.index], "Spin")),
                 PaceCtrl = ('ballNumber', lambda x: calculate_bowl_type_ctrl(match_bowling_df_copy.loc[x.index], "Pace")),
-                Dot = ('runsScored', lambda x: (x[x == 0].count()/x.notna().count())*100),
-                Boundary = ('runsScored', lambda x: (x[x >= 4].count()/x.notna().count())*100),
+                Dot = ('runsScored', lambda x: ((x[(x == 0) & (match_bowling_df_copy.loc[x.index, 'validDelivery'] == True)].count()) / (x[match_bowling_df_copy.loc[x.index, 'validDelivery'] == True].notna().count())) * 100),
+                Boundary = ('runsScored', lambda x: ((x[(x >= 4) & (match_bowling_df_copy.loc[x.index, 'validDelivery'] == True)].count()) / (x[match_bowling_df_copy.loc[x.index, 'validDelivery'] == True].notna().count())) * 100),
                 ProductiveShot = ('ballNumber', lambda x: calculate_best_shot(match_bowling_df_copy.loc[x.index]))
             ).reset_index()
             batter_stats['Control%'] = 100 - ((batter_stats['FalseShots'] / batter_stats['TotalDeliveries']) * 100)
@@ -324,12 +334,12 @@ if(format_type and comp_name and match_name):
             st.subheader("Team Metrics")
             st.dataframe(bowl_team_stats_copy.style.highlight_max(color='green', axis=0, subset=['FS', 'FS%'])
                          .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
-                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.2f}', 'FS%': '{:.2f}'}), 
+                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.0f}', 'FS%': '{:.2f}'}), 
                         hide_index=True)
             st.subheader("Bowler Metrics")
             st.dataframe(bowl_stats_copy.style.highlight_max(color='green', axis=0, subset=['FS', 'FS%'])
                          .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
-                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.2f}', 'FS%': '{:.2f}'}),
+                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.0f}', 'FS%': '{:.2f}'}),
                         hide_index=True)
             
 
