@@ -28,7 +28,7 @@ if st.session_state.format_type:
 
 format_type = st.selectbox(
     "Format",
-    match_list_df['gameType'].unique(),
+    match_list_df['gameType'].dropna().unique(),
     index=None,
     placeholder="Select format type",
     key='format_type'
