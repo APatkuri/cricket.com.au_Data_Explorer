@@ -14,7 +14,7 @@ st.title("cricket.com.au PlayGround")
 
 match_list_df = pd.read_csv('./cricket.com.au_2009_2025.csv')
 match_list_df = match_list_df[match_list_df['year']>2018]
-match_list_df = match_list_df[(match_list_df['isCompleted'] | match_list_df['isLive'])]
+match_list_df = match_list_df[(match_list_df['isCompleted'] | match_list_df['isLive'] | (match_list_df['gameStatusId'] == 'Stumps') )]
 
 if 'format_type' not in st.session_state:
     st.session_state.format_type = None

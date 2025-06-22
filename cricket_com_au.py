@@ -321,6 +321,7 @@ def main(format_type=None):
                 (year_df['year'] >= 2018) & 
                 (year_df['isWomensMatch'] == is_womens) &
                 ((year_df['isLive'] == True) | 
+                 (year_df['gameStatusId'] == 'Stumps') |
                  ((year_df['isCompleted'] == True) & 
                   (pd.to_datetime(year_df['startDateTime'], utc=True) > last_format_update)))
             ]
