@@ -37,6 +37,7 @@ format_type = st.selectbox(
 if(format_type):
     format_df = match_list_df[match_list_df['gameType'] == format_type]
     unique_competitions = format_df[['competition_name', 'year', 'competition_id',]].drop_duplicates()
+    unique_competitions = unique_competitions.iloc[::-1]
     unique_competitions.loc[:, 'Display'] = unique_competitions.apply(lambda x: f"[{x['year']}] {x['competition_name']} ({x['competition_id']})", axis=1)
     comp_name = st.selectbox(
         "Series",

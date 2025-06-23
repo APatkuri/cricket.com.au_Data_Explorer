@@ -200,9 +200,10 @@ def process_match_batch(matches, player_dict, team_dict, comp_dict, match_comp_d
             match_row = year_df[year_df['id'] == match_id]
             is_live = match_row['isLive'].iloc[0] if not match_row.empty else False
             is_completed = match_row['isCompleted'].iloc[0] if not match_row.empty else False
+            is_stumps = match_row['gameStatusId'].iloc[0] == 'Stumps' if not match_row.empty else False
             
             # Always process live matches, or unprocessed matches
-            if is_live or not os.path.exists(output_file):
+            if is_stumps or is_live or not os.path.exists(output_file):
                 match_df = main_func(match_id, player_dict, team_dict, comp_dict, match_comp_dict)
                 if not match_df.empty:
                     match_df.to_csv(output_file, index=False)
