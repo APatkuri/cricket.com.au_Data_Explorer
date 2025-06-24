@@ -86,9 +86,13 @@ def pitch_map(df):
     line_order = ['Wide', 'OutsideOff', 'OffStump', 'MiddleStump', 'LegStump', 'DownLeg', 'WideDownLeg']
 
     unique_bowlers = df['bowlerPlayerName'].dropna().unique()
+    # unique_pairs = df[['inningNumber', 'bowlerPlayerName']].dropna().drop_duplicates()
     n_bowlers = len(unique_bowlers)
     n_cols = 3  
     n_rows = -(-n_bowlers // n_cols)  # Equivalent to math.ceil(n_bowlers / n_cols)
+
+    if n_rows == 0:
+        return
 
     fig, axes = plt.subplots(nrows=n_rows, ncols=n_cols, figsize=(15, 5 * n_rows))
     axes = axes.flatten()
@@ -97,8 +101,9 @@ def pitch_map(df):
 
     # **Single Pass to Compute Heatmaps & Find Global Min/Max**
     for bowler in unique_bowlers:
+    # for inning, bowler in unique_pairs.itertuples(index=False):
         bowler_df = df[df['bowlerPlayerName'] == bowler]
-
+        # bowler_df = df[(df['inningNumber'] == inning) & (df['bowlerPlayerName'] == bowler)]
         # **Optimized Counting Method (Faster than pivot_table)**
 
         # **Ensure Proper Ordering Without Multiple reindex() Calls**
@@ -118,6 +123,8 @@ def pitch_map(df):
 
     # **Plot Heatmaps**
     for i, (heatmap_data, bowler) in enumerate(zip(heatmap_data_list, unique_bowlers)):
+    # for inning, bowler in unique_pairs.itertuples(index=False):
+    # for i, (heatmap_data, row) in enumerate(zip(heatmap_data_list, unique_pairs.itertuples(index=False))):
         ax = axes[i]
         sns.heatmap(heatmap_data, fmt="d", cmap='coolwarm', vmin=global_min, vmax=global_max, ax=ax, annot=False)
         ax.set_title(f'{bowler}')
@@ -128,6 +135,16 @@ def pitch_map(df):
     # **Hide Extra Subplots (If Any)**
     for j in range(i + 1, len(axes)):
         fig.delaxes(axes[j])
+
+    bowling_teams = df['bowlingTeamName'].dropna().unique()
+    innings = df['inningNumber'].dropna().unique()
+
+    if bowling_teams.size > 0 and innings.size > 0:
+        plt.suptitle(f"{bowling_teams[0]} Innings {innings[0]}", fontsize=16)
+    elif innings.size > 0:
+        plt.suptitle(f"Innings {innings[0]}", fontsize=16)
+    elif bowling_teams.size > 0:
+        plt.suptitle(f"{bowling_teams[0]}", fontsize=16)
 
     plt.tight_layout()
     st.pyplot(fig)
@@ -331,26 +348,32 @@ if(format_type and comp_name and match_name):
             batter_stats_copy = batter_stats.copy()
             batter_stats_copy = batter_stats_copy.rename(columns=column_renames)
 
+            team_met, bowl_met, bat_met, bowl_pitch_map, bowl_spell_met = st.tabs(["Team Metrics", "Bowler Metrics", "Batters Metrics", "Bowler Pitch Map", "Bowler Spell Metrics"])
 
-            st.subheader("Team Metrics")
-            st.dataframe(bowl_team_stats_copy.style.highlight_max(color='green', axis=0, subset=['FS', 'FS%'])
-                         .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
-                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.0f}', 'FS%': '{:.2f}'}), 
-                        hide_index=True)
-            st.subheader("Bowler Metrics")
-            st.dataframe(bowl_stats_copy.style.highlight_max(color='green', axis=0, subset=['FS', 'FS%'])
-                         .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
-                        .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.0f}', 'FS%': '{:.2f}'}),
-                        hide_index=True)
+
+            with team_met:
+                st.subheader("Team Metrics")
+                st.dataframe(bowl_team_stats_copy.style.highlight_max(color='green', axis=0, subset=['FS', 'FS%'])
+                            .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
+                            .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.0f}', 'FS%': '{:.2f}'}), 
+                            hide_index=True)
+                
+            with bowl_met:    
+                st.subheader("Bowler Metrics")
+                st.dataframe(bowl_stats_copy.style.highlight_max(color='green', axis=0, subset=['FS', 'FS%'])
+                            .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
+                            .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.0f}', 'FS%': '{:.2f}'}),
+                            hide_index=True)
             
-
-            st.subheader("Batters Metrics")
-            # columns_to_check = ['Control%', 'FFCtrl%', 'BFCtrl%', 'Runs', 'S/R', 'SpinCtrl%', 'PaceCtrl%', 'Boundary%']
-            # batter_stats_copy[columns_to_check] = batter_stats_copy[columns_to_check].where(pd.notna(batter_stats_copy[columns_to_check]), 0)
-            st.dataframe(batter_stats_copy.style.highlight_max(color='green', axis=0, subset=['Control%', 'FFCtrl%', 'BFCtrl%', 'Runs', 'S/R', 'SpinCtrl%', 'PaceCtrl%', 'Boundary%'])
-                         .highlight_max(color='red', axis=0, subset=['FS', 'Dot%'])
-                         .format({'Control%' : '{:.2f}', 'FF%' : '{:.2f}', 'FFCtrl%' : '{:.2f}', 'BFCtrl%' : '{:.2f}', 'Runs' : '{:.0f}', 'S/R' : '{:.2f}', 'SpinCtrl%' : '{:.2f}', 'PaceCtrl%' : '{:.2f}', 'Dot%': '{:.2f}', 'Boundary%': '{:.2f}'}),
-                         hide_index=True)
+            with bat_met:
+                st.subheader("Batters Metrics")
+                # columns_to_check = ['Control%', 'FFCtrl%', 'BFCtrl%', 'Runs', 'S/R', 'SpinCtrl%', 'PaceCtrl%', 'Boundary%']
+                # batter_stats_copy[columns_to_check] = batter_stats_copy[columns_to_check].where(pd.notna(batter_stats_copy[columns_to_check]), 0)
+                st.dataframe(batter_stats_copy.style.highlight_max(color='green', axis=0, subset=['Control%', 'FFCtrl%', 'BFCtrl%', 'Runs', 'S/R', 'SpinCtrl%', 'PaceCtrl%', 'Boundary%'])
+                            .highlight_max(color='red', axis=0, subset=['FS', 'Dot%'])
+                            .format({'Control%' : '{:.2f}', 'FF%' : '{:.2f}', 'FFCtrl%' : '{:.2f}', 'BFCtrl%' : '{:.2f}', 'Runs' : '{:.0f}', 'S/R' : '{:.2f}', 'SpinCtrl%' : '{:.2f}', 'PaceCtrl%' : '{:.2f}', 'Dot%': '{:.2f}', 'Boundary%': '{:.2f}'}),
+                            hide_index=True)
+                
             st.caption("FS: False Shot, FS%: False Shot %, S/R: Balls Per Dismissal, Avg: Runs Per Dismissal, Eco: Economy")
             st.caption("R/FS: Runs Conceded Per False Shot, B/FS: Balls Per False Shot, FS/D: False Shots Per Dismissal")
             st.caption("FF%: Front Foot %, FFCtrl% : Percentage of balls in control among all balls played on Front Foot by that batter")
@@ -401,8 +424,74 @@ if(format_type and comp_name and match_name):
             #         })
             #     )
 
-            st.subheader("Bowler Pitch Map")
-            pitch_map(match_bowling_df)
+            with bowl_pitch_map:
+                st.subheader("Bowler Pitch Map")
+
+                for inning in selected_innings:
+                    match_bowling_inning_df = match_bowling_df[match_bowling_df['inningNumber'] == inning]
+
+                    if not match_bowling_inning_df.empty:
+                        pitch_map(match_bowling_inning_df)
+
+
+            
+            # Bowler Spell Wise Stats
+
+            match_spell_bowling_df = match_bowling_df.copy()
+
+            def calculate_spell_overs(legal_deliveries):
+                full_overs = legal_deliveries // 6
+                remaining_balls = legal_deliveries % 6
+                return full_overs + (remaining_balls * 0.1)
+
+            def assign_spells(group):
+                overs = group[['over_overNumber']].drop_duplicates().sort_values('over_overNumber')
+                overs['diff'] = overs['over_overNumber'].diff().fillna(1)
+                overs['is_new_spell'] = overs['diff'] > 2
+                overs['SpellNumber'] = overs['is_new_spell'].cumsum() + 1
+                return group.merge(overs[['over_overNumber', 'SpellNumber']], on='over_overNumber', how='left')
+
+            match_spell_bowling_df = match_spell_bowling_df.groupby(['inningNumber', 'bowlerPlayerName'], group_keys=False).apply(assign_spells)
+
+            match_spell_bowling_df['isWide'] = match_spell_bowling_df['isWide'].astype(bool)
+            match_spell_bowling_df['isNoBall'] = match_spell_bowling_df['isNoBall'].astype(bool)
+            match_spell_bowling_df['validDelivery'] = ~(match_spell_bowling_df['isWide'].fillna(False) | match_spell_bowling_df['isNoBall'].fillna(False))
+            bowler_stats = match_spell_bowling_df.groupby(["inningNumber", "bowlerPlayerName", "SpellNumber", "BowlingType", "bowlingTeamName"]).agg(
+                OverPhase = ('over_overNumber', lambda x: f"{str(x.min())} - {str(x.max())}"),
+                Overs = ('validDelivery', lambda x: calculate_spell_overs(x.sum())),
+                TotalDeliveries=('ballNumber', 'count'),  # Total balls bowled
+                RunsConceded=('runsConceded', 'sum'),  # Total Runs Given
+                # Wickets=('isWicket', lambda x: x.sum()),  # Count of non-null wickets
+                Wickets = ('dismissalTypeId', lambda x: x.notna().sum() - x[x =='RunOut'].count()),
+                FalseShots=('battingConnectionId', lambda x: x.isin(false_shot_list).sum())  # Count False Shots
+            ).reset_index()
+
+
+            bowler_stats['BallsPerFalseShot'] = (bowler_stats['TotalDeliveries'] / bowler_stats['FalseShots'])
+            # bowler_stats['BallsPerFalseShot'] = bowler_stats['BallsPerFalseShot'].round(2).astype(str)
+            bowler_stats['RunsPerFalseShot'] = (bowler_stats['RunsConceded'] / bowler_stats['FalseShots'])
+
+            bowler_stats['FalseShotPerDismissial'] = np.where(bowler_stats['Wickets'] == 0, np.inf, (bowler_stats['FalseShots'] / bowler_stats['Wickets']))
+            # bowler_stats['RunsPerFalseShot'] = bowler_stats['RunsPerFalseShot'].round(2).astype(str)
+            bowler_stats['FalseShot%'] = (bowler_stats['FalseShots'] / bowler_stats['TotalDeliveries']) * 100
+            bowler_stats['S/R'] = np.where(bowler_stats['Wickets'] == 0, np.inf, (bowler_stats['TotalDeliveries'] / bowler_stats['Wickets']))
+            bowler_stats['Avg'] = np.where(bowler_stats['Wickets'] == 0, np.inf, (bowler_stats['RunsConceded'] / bowler_stats['Wickets']))
+            bowler_stats['Eco'] = np.where(bowler_stats['TotalDeliveries'] == 0, 0, ((bowler_stats['RunsConceded'] / bowler_stats['Overs'])))
+            # bowler_stats['FalseShot%'] = bowler_stats['FalseShot%'].round(2).astype(str)
+            # bowler_stats['RunsConceded'] = bowler_stats['RunsConceded'].round(2).astype(str)
+            bowler_stats = bowler_stats.sort_values(by=["inningNumber", "bowlingTeamName", "BowlingType"], inplace=False, ascending=False)
+
+            bowl_stats_copy = bowler_stats.copy()
+            bowl_stats_copy = bowl_stats_copy.rename(columns=column_renames)
+
+
+            with bowl_spell_met:
+                st.subheader("Bowler Spell Metrics")
+                st.dataframe(bowl_stats_copy.style.highlight_max(color='green', axis=0, subset=['FS', 'FS%'])
+                            .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
+                            .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.0f}', 'FS%': '{:.2f}'}),
+                            hide_index=True)
+
         else:
             st.warning("Select a Team")
 
