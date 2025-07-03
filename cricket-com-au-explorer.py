@@ -150,6 +150,115 @@ def pitch_map(df):
     st.pyplot(fig)
 
 
+def wagon_wheel_graph(wagon_wheel_df):
+
+    wagon_wheel_df['Zone'] = wagon_wheel_df.apply(
+        lambda x: 1 if 0 <= x['shotAngle'] <= 45 and x['shotMagnitude'] > 0
+        else 2 if 45 < x['shotAngle'] <= 90
+        else 3 if 90 < x['shotAngle'] <= 135
+        else 4 if 135 < x['shotAngle'] <= 180
+        else 5 if 180 < x['shotAngle'] <= 225
+        else 6 if 225 < x['shotAngle'] <= 270
+        else 7 if 270 < x['shotAngle'] <= 315
+        else 8 if 315 < x['shotAngle'] <= 360
+        else 0, axis=1
+    )
+    
+    temp_df = wagon_wheel_df[['shotAngle', 'shotMagnitude', 'runsScored', 'dismissalType']]
+    temp_df['shotAngle'] = np.deg2rad(temp_df['shotAngle'])
+
+    wicket_df = temp_df[temp_df['dismissalType'].notna()]
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6), subplot_kw={'polar': True})
+
+    # fig = plt.figure(figsize=(6,6))
+    # ax = plt.subplot(111, polar=True)
+    for angle, mag, run in zip(temp_df['shotAngle'], temp_df['shotMagnitude'], temp_df['runsScored']):
+        if run == 1 or run == 2 or run == 3:
+            ax1.plot([angle, angle], [0, mag], color='blue')
+        elif run == 4:
+            ax1.plot([angle, angle], [0, mag], color='green')
+        elif run == 5:
+            ax1.plot([angle, angle], [0, mag], color='orange')
+        elif run == 6:
+            ax1.plot([angle, angle], [0, mag], color='red')
+
+    ax1.scatter(wicket_df['shotAngle'], wicket_df['shotMagnitude'], color='black', marker='.', zorder= 4)
+    # Optional: Set the direction and location of 0 degrees
+    ax1.set_theta_zero_location('E')  # 0 degrees at the top
+    ax1.set_theta_direction(1)       # Clockwise
+
+    blue_line, = ax1.plot([], [], color='blue', label='1s, 2s, 3s')
+    green_line, = ax1.plot([], [], color='green', label='4s')
+    orange_line, = ax1.plot([], [], color='orange', label='5s')
+    red_line, = ax1.plot([], [], color='red', label='6s')
+    black_dot = ax1.scatter([], [], color='black', marker='.', label='Wickets')
+    ax1.legend(loc='upper right', bbox_to_anchor=(1.2, 1.1))
+
+    ax1.set_xticklabels([])
+    ax1.set_yticks([])
+    ax1.set_facecolor('lightgreen')
+    fig.patch.set_visible(False) 
+
+    # plt.title("Polar Plot of Magnitude vs Angle")
+    # plt.show()
+    # st.pyplot(plt)
+
+
+
+    total_runs = wagon_wheel_df['runsScored'].sum()
+    wagon_wheel_df['isWide'] = wagon_wheel_df['isWide'].astype(bool)
+    wagon_wheel_df['validDelivery'] = ~(wagon_wheel_df['isWide'].fillna(False))
+    zone_perc_df = wagon_wheel_df[wagon_wheel_df['Zone'].between(1, 8)].groupby(['Zone']).agg(
+        zone_runs_perc = ('runsScored', lambda x: (x.sum()/total_runs)*100),
+        zone_outs = ('dismissalTypeId', lambda x: x.notna().sum()),
+        zone_balls = ('validDelivery', 'sum'),
+    )
+
+    zone_perc_df['Avg'] = (zone_perc_df['zone_runs_perc']*total_runs*0.01)/zone_perc_df['zone_outs']
+    zone_perc_df['S/R'] = np.where(zone_perc_df['zone_balls'] == 0, np.nan, ((zone_perc_df['zone_runs_perc']*total_runs*0.01)/zone_perc_df['zone_balls'])*100)
+
+
+    zones = [1, 2, 3, 4, 5, 6, 7, 8]
+
+    zone_perc_df = zone_perc_df.reindex(zones)
+    # Fill only runs with 0; leave Avg/SR as NaN if missing
+    zone_perc_df['zone_runs_perc'] = zone_perc_df['zone_runs_perc'].fillna(0)
+    
+    runs = zone_perc_df['zone_runs_perc'].to_list()
+    avgs = zone_perc_df['Avg'].to_list()
+    strikerates = zone_perc_df['S/R'].to_list()
+
+    angles = np.linspace(np.pi/8, 17/8 * np.pi, 8, endpoint=False)
+
+    # Matplotlib requires bars to loop around circle, so repeat the first value
+    zones += [zones[0]]
+    runs += [runs[0]]
+    angles = np.append(angles, angles[0])
+    avgs += [avgs[0]]
+    strikerates += [strikerates[0]]
+
+    # Plot
+    # fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
+    bars = ax2.bar(angles, runs, width=np.pi/4, color='skyblue', edgecolor='black')
+
+    label_radius = zone_perc_df['zone_runs_perc'].max() * 0.6
+    for angle, run, zone, avg, sr in zip(angles, runs, zones, avgs, strikerates):
+        # Radial position: a bit lower than the top of the bar
+        # r = run * 0.5
+        ax2.text(angle, label_radius, f'{run:.2f}%\n{avg:.2f} Avg\n{sr:.2f} S/R', ha='center', va='center', fontsize=10, rotation=0, rotation_mode='anchor', color='black')
+
+        
+    ax2.set_theta_zero_location('E')  # 0 degrees at the top
+    ax2.set_theta_direction(1)
+
+    ax2.set_xticklabels([])
+    ax2.set_yticks([])  # Hide radial labels
+    fig.patch.set_visible(False) 
+    ax2.set_facecolor('lightgreen')
+
+    st.pyplot(fig)
+
 if(format_type and comp_name and match_name):
     selected_match_id = int(match_name.split("(")[-1][:-1])
     match_info_df = match_list_df[match_list_df['id'] == selected_match_id]
@@ -191,6 +300,7 @@ if(format_type and comp_name and match_name):
             
             false_shot_list = ['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
                                         'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge']
+            # false_shot_list = ['Missed', 'LeadingEdge', 'ThickEdge', 'BottomEdge', 'OutsideEdge', 'TopEdge', 'InsideEdge']
             
             incontrol_shot_list = ['WellTimed', 'Left']
             
@@ -292,6 +402,7 @@ if(format_type and comp_name and match_name):
 
                 false_shot_list = ['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
                                         'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge']
+                # false_shot_list = ['Missed', 'LeadingEdge', 'ThickEdge', 'BottomEdge', 'OutsideEdge', 'TopEdge', 'InsideEdge']
                 
                 new_df = df[(df['battingFeetId'] == foottype) & (df['validDelivery'] == True)]
 
@@ -305,6 +416,7 @@ if(format_type and comp_name and match_name):
 
                 false_shot_list = ['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
                                         'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge']
+                # false_shot_list = ['Missed', 'LeadingEdge', 'ThickEdge', 'BottomEdge', 'OutsideEdge', 'TopEdge', 'InsideEdge']
 
                 new_df = df[(df['BowlingType'] == bowltype) & (df['validDelivery'] == True)]
 
@@ -348,7 +460,7 @@ if(format_type and comp_name and match_name):
             batter_stats_copy = batter_stats.copy()
             batter_stats_copy = batter_stats_copy.rename(columns=column_renames)
 
-            team_met, bowl_met, bat_met, bowl_pitch_map, bowl_spell_met = st.tabs(["Team Metrics", "Bowler Metrics", "Batters Metrics", "Bowler Pitch Map", "Bowler Spell Metrics"])
+            team_met, bowl_met, bat_met, bowl_pitch_map, bowl_spell_met, wagon_wheel = st.tabs(["Team Metrics", "Bowler Metrics", "Batters Metrics", "Bowler Pitch Map", "Bowler Spell Metrics", "Wagon Wheel/Scoring Areas"])
 
 
             with team_met:
@@ -491,6 +603,54 @@ if(format_type and comp_name and match_name):
                             .highlight_min(color='green', axis=0, subset=['FS/D', 'B/FS', 'R/FS', 'S/R', 'Avg', 'Eco'])
                             .format({'Overs': '{:.1f}', 'Eco': '{:.2f}', 'S/R': '{:.2f}', 'Avg': '{:.2f}', 'FS/D': '{:.2f}', 'B/FS': '{:.2f}', 'R/FS': '{:.2f}', 'Runs': '{:.0f}', 'FS%': '{:.2f}'}),
                             hide_index=True)
+
+            with wagon_wheel:
+
+                wagon_wheel_df = match_bowling_df.copy()
+
+                spin = ['Orthodox', 'Unorthodox', 'OffSpin', 'LegSpin']
+                wagon_wheel_df['BowlingType'] = np.where(pd.isna(wagon_wheel_df['bowlingTypeId']), None, np.where(wagon_wheel_df['bowlingTypeId'].isin(spin), "Spin", "Pace"))
+
+                bowl_type = st.radio(
+                            'Bowling Type',
+                            ['All', 'Pace', 'Spin'],
+                            horizontal=True
+                        )
+                
+                if len(selected_innings) > 0:
+                    wagon_wheel_selected_innings = st.selectbox('Innings',
+                                                                selected_innings,
+                                                                index=0,
+                                                                placeholder='Select an Inning')
+                
+                    # for inning in selected_innings:
+                    wagon_wheel_inning_df = wagon_wheel_df[wagon_wheel_df['inningNumber'] == wagon_wheel_selected_innings]
+
+                    if not wagon_wheel_inning_df.empty:
+
+                        # selected_batter = st.selectbox('Batters',
+                        #     ['All'] + list(wagon_wheel_inning_df['battingPlayerName'].sort_values().dropna().unique()),
+                        #     index=0,
+                        #     placeholder= 'Select a Batter')
+                        
+                        # if selected_batter != 'All':
+                        #     wagon_wheel_inning_df = wagon_wheel_inning_df[wagon_wheel_inning_df['battingPlayerName'] == selected_batter]
+                        
+                        # selected_bowler = st.selectbox('Bowlers',
+                        #     ['All'] + list(wagon_wheel_inning_df['bowlerPlayerName'].sort_values().dropna().unique()),
+                        #     index=0,
+                        #     placeholder= 'Select a Bowler')
+                        
+                        # if selected_bowler != 'All':
+                        #     wagon_wheel_inning_df = wagon_wheel_inning_df[wagon_wheel_inning_df['bowlerPlayerName'] == selected_bowler]
+                        
+
+                        if bowl_type != 'All':
+                            wagon_wheel_inning_df = wagon_wheel_inning_df[wagon_wheel_inning_df['BowlingType'] == bowl_type]
+
+                        wagon_wheel_graph(wagon_wheel_inning_df)
+
+                
 
         else:
             st.warning("Select a Team")
