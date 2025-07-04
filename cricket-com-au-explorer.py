@@ -611,44 +611,45 @@ if(format_type and comp_name and match_name):
                 spin = ['Orthodox', 'Unorthodox', 'OffSpin', 'LegSpin']
                 wagon_wheel_df['BowlingType'] = np.where(pd.isna(wagon_wheel_df['bowlingTypeId']), None, np.where(wagon_wheel_df['bowlingTypeId'].isin(spin), "Spin", "Pace"))
 
+                
+                # if len(selected_innings) > 0:
+                wagon_wheel_selected_innings = st.selectbox('Innings',
+                                                            selected_innings,
+                                                            index=0,
+                                                            placeholder='Select an Inning')
+                
                 bowl_type = st.radio(
                             'Bowling Type',
                             ['All', 'Pace', 'Spin'],
                             horizontal=True
                         )
-                
-                if len(selected_innings) > 0:
-                    wagon_wheel_selected_innings = st.selectbox('Innings',
-                                                                selected_innings,
-                                                                index=0,
-                                                                placeholder='Select an Inning')
-                
-                    # for inning in selected_innings:
-                    wagon_wheel_inning_df = wagon_wheel_df[wagon_wheel_df['inningNumber'] == wagon_wheel_selected_innings]
+            
+                # for inning in selected_innings:
+                wagon_wheel_inning_df = wagon_wheel_df[wagon_wheel_df['inningNumber'] == wagon_wheel_selected_innings]
 
-                    if not wagon_wheel_inning_df.empty:
+                if not wagon_wheel_inning_df.empty:
 
-                        # selected_batter = st.selectbox('Batters',
-                        #     ['All'] + list(wagon_wheel_inning_df['battingPlayerName'].sort_values().dropna().unique()),
-                        #     index=0,
-                        #     placeholder= 'Select a Batter')
-                        
-                        # if selected_batter != 'All':
-                        #     wagon_wheel_inning_df = wagon_wheel_inning_df[wagon_wheel_inning_df['battingPlayerName'] == selected_batter]
-                        
-                        # selected_bowler = st.selectbox('Bowlers',
-                        #     ['All'] + list(wagon_wheel_inning_df['bowlerPlayerName'].sort_values().dropna().unique()),
-                        #     index=0,
-                        #     placeholder= 'Select a Bowler')
-                        
-                        # if selected_bowler != 'All':
-                        #     wagon_wheel_inning_df = wagon_wheel_inning_df[wagon_wheel_inning_df['bowlerPlayerName'] == selected_bowler]
-                        
+                    # selected_batter = st.selectbox('Batters',
+                    #     ['All'] + list(wagon_wheel_inning_df['battingPlayerName'].sort_values().dropna().unique()),
+                    #     index=0,
+                    #     placeholder= 'Select a Batter')
+                    
+                    # if selected_batter != 'All':
+                    #     wagon_wheel_inning_df = wagon_wheel_inning_df[wagon_wheel_inning_df['battingPlayerName'] == selected_batter]
+                    
+                    # selected_bowler = st.selectbox('Bowlers',
+                    #     ['All'] + list(wagon_wheel_inning_df['bowlerPlayerName'].sort_values().dropna().unique()),
+                    #     index=0,
+                    #     placeholder= 'Select a Bowler')
+                    
+                    # if selected_bowler != 'All':
+                    #     wagon_wheel_inning_df = wagon_wheel_inning_df[wagon_wheel_inning_df['bowlerPlayerName'] == selected_bowler]
+                    
 
-                        if bowl_type != 'All':
-                            wagon_wheel_inning_df = wagon_wheel_inning_df[wagon_wheel_inning_df['BowlingType'] == bowl_type]
+                    if bowl_type != 'All':
+                        wagon_wheel_inning_df = wagon_wheel_inning_df[wagon_wheel_inning_df['BowlingType'] == bowl_type]
 
-                        wagon_wheel_graph(wagon_wheel_inning_df)
+                    wagon_wheel_graph(wagon_wheel_inning_df)
 
                 
 

@@ -213,6 +213,9 @@ def process_match_batch(matches, player_dict, team_dict, comp_dict, match_comp_d
                     if is_live and match_id not in live_matches:
                         live_matches.add(match_id)
                         print(f"Match {match_id} is live, added to live matches")
+                    if is_stumps and match_id not in live_matches:
+                        live_matches.add(match_id)
+                        print(f"Match {match_id} is stumps, added to live matches")
                     elif is_completed and match_id in live_matches:
                         live_matches.remove(match_id)
                         print(f"Match {match_id} completed, removed from live matches")
