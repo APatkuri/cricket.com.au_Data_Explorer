@@ -64,7 +64,7 @@ if(format_type):
 def false_shot_pitch_map(df):
 
     df = df[df['battingConnectionId'].isin(['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
-                                        'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge'])]
+                                        'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge', 'Gloved'])]
     heatmap_data = df.pivot_table(index="lengthTypeId", columns="lineTypeId", aggfunc="size", fill_value=0)
     length_order = ['FullToss', 'Yorker', 'HalfVolley', 'LengthBall', 'BackOfALength', 'Short' ]
     line_order = ['Wide', 'OutsideOff', 'OffStump', 'MiddleStump', 'LegStump', 'DownLeg', 'WideDownLeg']
@@ -296,10 +296,10 @@ if(format_type and comp_name and match_name):
         if(len(match_bowling_df) > 0):
 
             false_shots_mask = match_bowling_df['battingConnectionId'].isin(['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
-                                        'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge'])
+                                        'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge', 'Gloved'])
             
             false_shot_list = ['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
-                                        'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge']
+                                        'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge', 'Gloved']
             # false_shot_list = ['Missed', 'LeadingEdge', 'ThickEdge', 'BottomEdge', 'OutsideEdge', 'TopEdge', 'InsideEdge']
             
             incontrol_shot_list = ['WellTimed', 'Left']
@@ -401,7 +401,7 @@ if(format_type and comp_name and match_name):
             def calculate_foot_ctrl(df, foottype):
 
                 false_shot_list = ['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
-                                        'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge']
+                                        'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge', 'Gloved']
                 # false_shot_list = ['Missed', 'LeadingEdge', 'ThickEdge', 'BottomEdge', 'OutsideEdge', 'TopEdge', 'InsideEdge']
                 
                 new_df = df[(df['battingFeetId'] == foottype) & (df['validDelivery'] == True)]
@@ -415,7 +415,7 @@ if(format_type and comp_name and match_name):
             def calculate_bowl_type_ctrl(df, bowltype):
 
                 false_shot_list = ['Missed', 'MisTimed', 'HitPad', 'PlayAndMissLegSide', 'LeadingEdge', 'ThickEdge', 
-                                        'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge']
+                                        'BottomEdge', 'OutsideEdge', 'TopEdge', 'Spliced', 'InsideEdge', 'Gloved']
                 # false_shot_list = ['Missed', 'LeadingEdge', 'ThickEdge', 'BottomEdge', 'OutsideEdge', 'TopEdge', 'InsideEdge']
 
                 new_df = df[(df['BowlingType'] == bowltype) & (df['validDelivery'] == True)]
@@ -605,6 +605,7 @@ if(format_type and comp_name and match_name):
                             hide_index=True)
 
             with wagon_wheel:
+                st.subheader("Wagon Wheel")
 
                 wagon_wheel_df = match_bowling_df.copy()
 
@@ -618,25 +619,26 @@ if(format_type and comp_name and match_name):
                                                             index=0,
                                                             placeholder='Select an Inning')
                 
-                bowl_type = st.radio(
-                            'Bowling Type',
-                            ['All', 'Pace', 'Spin'],
-                            horizontal=True
-                        )
+
             
                 # for inning in selected_innings:
                 wagon_wheel_inning_df = wagon_wheel_df[wagon_wheel_df['inningNumber'] == wagon_wheel_selected_innings]
 
                 if not wagon_wheel_inning_df.empty:
 
-                    # selected_batter = st.selectbox('Batters',
-                    #     ['All'] + list(wagon_wheel_inning_df['battingPlayerName'].sort_values().dropna().unique()),
-                    #     index=0,
-                    #     placeholder= 'Select a Batter')
+                    selected_batter = st.selectbox('Batters',
+                        ['All'] + list(wagon_wheel_inning_df['battingPlayerName'].sort_values().dropna().unique()),
+                        index=0,
+                        placeholder= 'Select a Batter')
                     
-                    # if selected_batter != 'All':
-                    #     wagon_wheel_inning_df = wagon_wheel_inning_df[wagon_wheel_inning_df['battingPlayerName'] == selected_batter]
+                    if selected_batter != 'All':
+                        wagon_wheel_inning_df = wagon_wheel_inning_df[wagon_wheel_inning_df['battingPlayerName'] == selected_batter]
                     
+                    bowl_type = st.radio(
+                            'Bowling Type',
+                            ['All', 'Pace', 'Spin'],
+                            horizontal=True
+                        )
                     # selected_bowler = st.selectbox('Bowlers',
                     #     ['All'] + list(wagon_wheel_inning_df['bowlerPlayerName'].sort_values().dropna().unique()),
                     #     index=0,
