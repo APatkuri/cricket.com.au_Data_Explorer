@@ -112,7 +112,8 @@ def fetch_year_data(year, is_completed, is_women_match):
 
 def sched_func():
     current_year = date.today().year
-    file_name = f'./cricket.com.au_2009_{current_year}.csv'
+    # file_name = f'./cricket.com.au_2009_{current_year}.csv'
+    file_name = f'./cricket.com.au_2009_2025.csv'
     
     # Load existing data if available
     if os.path.exists(file_name):
@@ -235,7 +236,8 @@ def main(format_type=None):
     
     if year_df is None or year_df.empty:
         print("Failed to retrieve schedule data, attempting to load from file")
-        file_name = f'./cricket.com.au_2009_{date.today().year}.csv'
+        # file_name = f'./cricket.com.au_2009_{date.today().year}.csv'
+        file_name = f'./cricket.com.au_2009_2025.csv'
         if os.path.exists(file_name):
             year_df = pd.read_csv(file_name, low_memory=False)
         else:
