@@ -12,7 +12,8 @@ from cricket_com_au import main
 
 st.title("cricket.com.au PlayGround")
 
-match_list_df = pd.read_csv('./cricket.com.au_2009_2025.csv')
+from datetime import date
+match_list_df = pd.read_csv(f'./cricket.com.au_2009_{date.today().year}.csv')
 match_list_df = match_list_df[match_list_df['year']>2018]
 match_list_df = match_list_df[(match_list_df['isCompleted'] | match_list_df['isLive'] | (match_list_df['gameStatusId'] == 'Stumps') )]
 
