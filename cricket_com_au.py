@@ -282,7 +282,8 @@ def main(format_type=None):
         'one day domestic': (5, 'one day domestic'),
         'youth test': (33, 'youth test'),
         'youth odi': (27, 'youth odi'),
-        'youth t20': (27, 'youth t20')
+        'youth one day non-official': (28, 'youth one day non-official'),
+        'youth t20': (29, 'youth t20')
     }
 
     # Process matches in parallel batches
