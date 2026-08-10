@@ -22,6 +22,7 @@ def preprocess(data):
     df = df.iloc[:-1]  # Drop last row
     df = df.explode('over_balls', ignore_index=True)
     df1 = pd.json_normalize(df['over_balls'])
+    df1 = df1.rename(columns={'id': 'ball_id'})  # Avoid clashing with the innings id
     df = pd.concat([df.drop(columns=['over_balls']), df1], axis=1)
     df = df.iloc[::-1].reset_index(drop=True)
     return df.drop(columns=['comments'], errors='ignore')
