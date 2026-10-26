@@ -987,7 +987,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 1093,Nilakshi,Silva,Nilakshi Damayanthi,Nilakshi de Silva,Sri Lanka,,"[{'id': 77, 'name': 'Sri Lanka Women', 'isWomensTeam': False}]",True
 1094,Vaibhav,Wategaonkar,Shridhar,Vaibhav Wategaonkar,,,"[{'id': 302, 'name': 'Oman', 'isWomensTeam': False}]",False
 1095,Sam,Heazlett,Daly,Sam Heazlett,Australia,Men,"[{'id': 23, 'name': 'Australia', 'isWomensTeam': False}, {'id': 78, 'name': ""Prime Minister's XI"", 'isWomensTeam': False}, {'id': 103, 'name': 'Brisbane Heat', 'isWomensTeam': False}, {'id': 311, 'name': 'Australia 6s', 'isWomensTeam': False}, {'id': 1205, 'name': 'Queensland Bulls', 'isWomensTeam': False}, {'id': 1414, 'name': 'Queensland XI', 'isWomensTeam': False}]",True
-1096,Paul,van Meekeren,Adriaan,Paul van Meekeren,,,"[{'id': 31, 'name': 'Somerset', 'isWomensTeam': False}, {'id': 34, 'name': 'Gloucestershire', 'isWomensTeam': False}, {'id': 40, 'name': 'Durham', 'isWomensTeam': False}, {'id': 55, 'name': 'St Kitts and Nevis Patriots', 'isWomensTeam': False}, {'id': 184, 'name': 'Vancouver Knights', 'isWomensTeam': False}, {'id': 213, 'name': 'Netherlands', 'isWomensTeam': False}, {'id': 945, 'name': 'Khulna Tigers', 'isWomensTeam': False}]",True
+1096,Paul,Meekeren,Adriaan,Paul van Meekeren,,,"[{'id': 31, 'name': 'Somerset', 'isWomensTeam': False}, {'id': 34, 'name': 'Gloucestershire', 'isWomensTeam': False}, {'id': 40, 'name': 'Durham', 'isWomensTeam': False}, {'id': 55, 'name': 'St Kitts and Nevis Patriots', 'isWomensTeam': False}, {'id': 184, 'name': 'Vancouver Knights', 'isWomensTeam': False}, {'id': 213, 'name': 'Netherlands', 'isWomensTeam': False}, {'id': 945, 'name': 'Khulna Tigers', 'isWomensTeam': False}]",True
 1097,Beau,Webster,Jacob,Beau Webster,Australia,Men,"[{'id': 23, 'name': 'Australia', 'isWomensTeam': False}, {'id': 32, 'name': 'Essex', 'isWomensTeam': False}, {'id': 33, 'name': 'Warwickshire', 'isWomensTeam': False}, {'id': 34, 'name': 'Gloucestershire', 'isWomensTeam': False}, {'id': 64, 'name': 'Australia A', 'isWomensTeam': False}, {'id': 78, 'name': ""Prime Minister's XI"", 'isWomensTeam': False}, {'id': 80, 'name': 'Cricket Australia XI', 'isWomensTeam': False}, {'id': 85, 'name': 'Tasmanian Tigers', 'isWomensTeam': False}, {'id': 105, 'name': 'Melbourne Renegades', 'isWomensTeam': False}, {'id': 108, 'name': 'Melbourne Stars', 'isWomensTeam': False}, {'id': 110, 'name': 'Hobart Hurricanes', 'isWomensTeam': False}, {'id': 725, 'name': 'Brampton Wolves', 'isWomensTeam': False}]",True
 1098,Lata,Mondal,,Lata Mondal,,,"[{'id': 73, 'name': 'Bangladesh Women', 'isWomensTeam': False}]",True
 1099,Matthew,Cross,Henry,Matthew Cross,Scotland,,"[{'id': 32, 'name': 'Essex', 'isWomensTeam': False}, {'id': 44, 'name': 'Nottinghamshire', 'isWomensTeam': False}, {'id': 210, 'name': 'Scotland', 'isWomensTeam': False}]",True
@@ -2724,7 +2724,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 2972,Tawhid,Hridoy,,Tawhid Hridoy,Bangladesh,Men,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}, {'id': 1159, 'name': 'Sylhet Titans', 'isWomensTeam': False}, {'id': 1160, 'name': 'Barishal', 'isWomensTeam': False}]",True
 2973,Shahadat,Dipu,Hossain,Shahadat Hossain,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}]",False
 2974,Akbar,Ali,,Akbar Ali,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 294, 'name': 'Bangladesh 6s', 'isWomensTeam': False}, {'id': 941, 'name': 'Chattogram Royals', 'isWomensTeam': False}, {'id': 1159, 'name': 'Sylhet Titans', 'isWomensTeam': False}]",False
-2975,Shamim,Hossain,,Shamim Hossain,Bangladesh,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}, {'id': 941, 'name': 'Chattogram Royals', 'isWomensTeam': False}, {'id': 1383, 'name': 'Bangladesh A', 'isWomensTeam': False}, {'id': 1445, 'name': 'Lahore Qalandars', 'isWomensTeam': False}]",True
+2975,Shamim,Hossain,,Shamim Hossain,Bangladesh,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}, {'id': 941, 'name': 'Chattogram Royals', 'isWomensTeam': False}, {'id': 1383, 'name': 'Bangladesh A', 'isWomensTeam': False}, {'id': 1445, 'name': 'Lahore Qalandars', 'isWomensTeam': False}, {'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
 2976,Parvez,Emon,Parvez Hossain,Parvez Hossain Emon,Bangladesh,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}, {'id': 1445, 'name': 'Lahore Qalandars', 'isWomensTeam': False}]",True
 2977,Mrittunjoy,Chowdhury,Mrittunjoy Chowdhury,Mrittunjoy Chowdhury,Bangladesh,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}, {'id': 941, 'name': 'Chattogram Royals', 'isWomensTeam': False}, {'id': 1383, 'name': 'Bangladesh A', 'isWomensTeam': False}]",True
 2978,Tanzim,Sakib,Hasan,Tanzim Hasan Sakib,Bangladesh,Men,"[{'id': 60, 'name': 'Guyana Amazon Warriors', 'isWomensTeam': False}, {'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}, {'id': 1159, 'name': 'Sylhet Titans', 'isWomensTeam': False}]",True
@@ -2768,7 +2768,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 3016,Kirstan,Kallicharan,Ajay,Kirstan Kallicharan,,,"[{'id': 237, 'name': 'West Indies Under 19s', 'isWomensTeam': False}]",False
 3017,Odean,Smith,Fabian,Odean Smith,,,"[{'id': 24, 'name': 'West Indies', 'isWomensTeam': False}, {'id': 55, 'name': 'St Kitts and Nevis Patriots', 'isWomensTeam': False}, {'id': 60, 'name': 'Guyana Amazon Warriors', 'isWomensTeam': False}, {'id': 110, 'name': 'Hobart Hurricanes', 'isWomensTeam': False}, {'id': 237, 'name': 'West Indies Under 19s', 'isWomensTeam': False}, {'id': 242, 'name': 'Punjab Kings', 'isWomensTeam': False}, {'id': 634, 'name': 'Quetta Gladiators', 'isWomensTeam': False}, {'id': 838, 'name': 'Deccan Gladiators', 'isWomensTeam': False}, {'id': 1069, 'name': 'West Indies A', 'isWomensTeam': False}, {'id': 1215, 'name': 'New York Strikers', 'isWomensTeam': False}, {'id': 1219, 'name': 'MI Cape Town', 'isWomensTeam': False}, {'id': 1321, 'name': 'Antigua & Barbuda Falcons', 'isWomensTeam': False}, {'id': 1449, 'name': 'Jamaica Kingsmen', 'isWomensTeam': False}]",True
 3018,Saeed,Sarkar,,Saeed Sarkar,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
-3019,Abdul,Halim,,Abdul Halim,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
+3019,Abdul,Halim,,Abdul Halim,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
 3020,Saleh,Gazi,Ahmed Shawon,Saleh Ahmed Shawon,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 3021,Ariful,Islam,,Ariful Islam,Bangladesh,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 1383, 'name': 'Bangladesh A', 'isWomensTeam': False}]",True
 3022,Haris,Aslam,,Haris Aslam,,,"[{'id': 640, 'name': 'Scotland Under 19s', 'isWomensTeam': False}]",False
@@ -2915,7 +2915,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 3165,Jehan,Daniel,Keeth Cion,Jehan Daniel,,,[],False
 3166,Basthiyan,Silva,Arachchilage Damitha Naween,Damitha Silva,,,[],False
 3167,SH,Kumara,Thilan Nimesh,Thilan Nimesh,,,[],False
-3168,Mosabbek,Shaan,Hossain,Mosabbek Hossain,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
+3168,Mossabbek,Hossain,,Mossabbek Hossain,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
 3169,Chemar,Holder,Keron,Chemar Holder,,,"[{'id': 24, 'name': 'West Indies', 'isWomensTeam': False}, {'id': 33, 'name': 'Warwickshire', 'isWomensTeam': False}, {'id': 40, 'name': 'Durham', 'isWomensTeam': False}, {'id': 54, 'name': 'St Lucia Kings', 'isWomensTeam': False}, {'id': 58, 'name': 'Barbados Tridents', 'isWomensTeam': False}, {'id': 237, 'name': 'West Indies Under 19s', 'isWomensTeam': False}, {'id': 626, 'name': ""University of West Indies Vice Chancellor's XI"", 'isWomensTeam': False}, {'id': 648, 'name': ""CWI President's XI"", 'isWomensTeam': False}, {'id': 1029, 'name': 'Barbados Pride', 'isWomensTeam': False}, {'id': 1056, 'name': 'Brathwaite XI', 'isWomensTeam': False}, {'id': 1069, 'name': 'West Indies A', 'isWomensTeam': False}, {'id': 1154, 'name': 'Blackwood XI', 'isWomensTeam': False}]",True
 3170,Stephanie,Butler,,Stephanie Butler,,,"[{'id': 116, 'name': 'Yorkshire Diamonds', 'isWomensTeam': False}, {'id': 161, 'name': 'England Academy Women', 'isWomensTeam': False}, {'id': 1063, 'name': 'Central Sparks', 'isWomensTeam': False}, {'id': 1066, 'name': 'Thunder', 'isWomensTeam': False}]",False
 3171,Anna,Nicholls,Louise,Anna Nicholls,,,"[{'id': 116, 'name': 'Yorkshire Diamonds', 'isWomensTeam': False}]",False
@@ -3256,7 +3256,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 3514,Imran,Khan,,Imran Khan,,,"[{'id': 55, 'name': 'St Kitts and Nevis Patriots', 'isWomensTeam': False}, {'id': 57, 'name': 'Jamaica Tallawahs', 'isWomensTeam': False}, {'id': 58, 'name': 'Barbados Tridents', 'isWomensTeam': False}, {'id': 1056, 'name': 'Brathwaite XI', 'isWomensTeam': False}, {'id': 1154, 'name': 'Blackwood XI', 'isWomensTeam': False}]",False
 3515,Keron,Cottoy,Julius,Keron Cottoy,,,"[{'id': 54, 'name': 'St Lucia Kings', 'isWomensTeam': False}, {'id': 55, 'name': 'St Kitts and Nevis Patriots', 'isWomensTeam': False}, {'id': 626, 'name': ""University of West Indies Vice Chancellor's XI"", 'isWomensTeam': False}, {'id': 1120, 'name': 'Windward Volcanoes', 'isWomensTeam': False}]",False
 3516,Justin,Greaves,Pierre,Justin Greaves,West Indies,Men,"[{'id': 24, 'name': 'West Indies', 'isWomensTeam': False}, {'id': 58, 'name': 'Barbados Tridents', 'isWomensTeam': False}, {'id': 1029, 'name': 'Barbados Pride', 'isWomensTeam': False}, {'id': 1321, 'name': 'Antigua & Barbuda Falcons', 'isWomensTeam': False}, {'id': 1452, 'name': 'Trinbago Knight Riders', 'isWomensTeam': False}]",True
-3517,Joshua,Bishop,Aaron,Joshua Bishop,West Indies,,"[{'id': 58, 'name': 'Barbados Tridents', 'isWomensTeam': False}, {'id': 1202, 'name': 'West Indies Academy', 'isWomensTeam': False}, {'id': 1453, 'name': 'Saint Lucia Kings', 'isWomensTeam': False}, {'id': 1465, 'name': 'West Indies Select XI', 'isWomensTeam': False}]",True
+3517,Joshua,Bishop,Aaron,Joshua Bishop,West Indies,,"[{'id': 24, 'name': 'West Indies', 'isWomensTeam': False}, {'id': 58, 'name': 'Barbados Tridents', 'isWomensTeam': False}, {'id': 1202, 'name': 'West Indies Academy', 'isWomensTeam': False}, {'id': 1453, 'name': 'Saint Lucia Kings', 'isWomensTeam': False}, {'id': 1465, 'name': 'West Indies Select XI', 'isWomensTeam': False}]",True
 3518,Lucy,Cripps,Paige,Lucy Cripps,,,"[{'id': 88, 'name': 'Victoria Women', 'isWomensTeam': False}, {'id': 97, 'name': 'Melbourne Stars Women', 'isWomensTeam': False}, {'id': 154, 'name': 'Lanning XII', 'isWomensTeam': False}, {'id': 155, 'name': 'Perry XII', 'isWomensTeam': False}]",True
 3519,Tess,Flintoff,,Tess Flintoff,Australia,Women,"[{'id': 68, 'name': 'Australia Women', 'isWomensTeam': True}, {'id': 88, 'name': 'Victoria Women', 'isWomensTeam': False}, {'id': 94, 'name': 'Governor-General XI', 'isWomensTeam': True}, {'id': 97, 'name': 'Melbourne Stars Women', 'isWomensTeam': False}, {'id': 101, 'name': 'Melbourne Renegades Women', 'isWomensTeam': False}, {'id': 708, 'name': 'Australia A Women', 'isWomensTeam': False}, {'id': 895, 'name': 'Birmingham Phoenix Women', 'isWomensTeam': False}, {'id': 1316, 'name': 'CA Gold', 'isWomensTeam': True}]",True
 3520,Courtney,Neale,Belle,Courtney Neale,Australia,Women,"[{'id': 88, 'name': 'Victoria Women', 'isWomensTeam': False}, {'id': 93, 'name': 'South Australia Women', 'isWomensTeam': True}, {'id': 99, 'name': 'Adelaide Strikers Women', 'isWomensTeam': False}, {'id': 101, 'name': 'Melbourne Renegades Women', 'isWomensTeam': False}, {'id': 1316, 'name': 'CA Gold', 'isWomensTeam': True}]",True
@@ -3628,7 +3628,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 3898,Cam,McClure,Leigh,Cameron McClure,Australia,Men,"[{'id': 80, 'name': 'Cricket Australia XI', 'isWomensTeam': False}, {'id': 82, 'name': 'Victoria', 'isWomensTeam': False}, {'id': 324, 'name': 'Gilchrist XII', 'isWomensTeam': False}, {'id': 940, 'name': 'Victoria Country Under 19s', 'isWomensTeam': False}]",True
 3899,Nick,Gladman,,Nick Gladman,,,"[{'id': 940, 'name': 'Victoria Country Under 19s', 'isWomensTeam': False}]",False
 3900,Callum,Stow,,Callum Stow,Australia,Men,"[{'id': 82, 'name': 'Victoria', 'isWomensTeam': False}, {'id': 105, 'name': 'Melbourne Renegades', 'isWomensTeam': False}, {'id': 940, 'name': 'Victoria Country Under 19s', 'isWomensTeam': False}, {'id': 1294, 'name': 'San Francisco Unicorns', 'isWomensTeam': False}, {'id': 1494, 'name': 'Victoria Academy', 'isWomensTeam': False}]",True
-3901,Jaker,Anik,Ali,Jaker Ali,Bangladesh,Men,"[{'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}, {'id': 945, 'name': 'Khulna Tigers', 'isWomensTeam': False}, {'id': 1040, 'name': 'Comilla Victorians', 'isWomensTeam': False}]",True
+3901,Jaker,Anik,Ali,Jaker Ali,Bangladesh,Men,"[{'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}, {'id': 945, 'name': 'Khulna Tigers', 'isWomensTeam': False}, {'id': 1040, 'name': 'Comilla Victorians', 'isWomensTeam': False}, {'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
 3902,Minhajul,Afridi,,Minhajul Abedin Afridi,,,[],False
 3903,Hasan,Mahmud,,Hasan Mahmud,Bangladesh,,"[{'id': 41, 'name': 'Kent', 'isWomensTeam': False}, {'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}, {'id': 944, 'name': 'Dhaka Platoon', 'isWomensTeam': False}]",True
 3904,Shohidul,Islam,,Shohidul Islam,,,"[{'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}]",False
@@ -6726,7 +6726,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 7006,Nathan,Gilchrist,Nicholas,Nathan Gilchrist,,,"[{'id': 31, 'name': 'Somerset', 'isWomensTeam': False}, {'id': 33, 'name': 'Warwickshire', 'isWomensTeam': False}, {'id': 38, 'name': 'Middlesex', 'isWomensTeam': False}, {'id': 41, 'name': 'Kent', 'isWomensTeam': False}, {'id': 42, 'name': 'Leicestershire', 'isWomensTeam': False}, {'id': 115, 'name': 'England Lions', 'isWomensTeam': False}, {'id': 903, 'name': 'PCC Select XI', 'isWomensTeam': False}, {'id': 1455, 'name': 'Professional County Club Select XI', 'isWomensTeam': False}]",True
 7007,Jack,Carson,Joshua,Jack Carson,England,,"[{'id': 35, 'name': 'Sussex', 'isWomensTeam': False}, {'id': 115, 'name': 'England Lions', 'isWomensTeam': False}, {'id': 1138, 'name': 'County Select XI', 'isWomensTeam': False}]",True
 7008,Dan,Moriarty,Thornhill,Dan Moriarty,,,"[{'id': 45, 'name': 'Yorkshire', 'isWomensTeam': False}, {'id': 48, 'name': 'Surrey', 'isWomensTeam': False}, {'id': 930, 'name': 'Southern Brave Men', 'isWomensTeam': False}]",True
-7009,Henry,Crocombe,Thomas,Henry Crocombe,England,,"[{'id': 35, 'name': 'Sussex', 'isWomensTeam': False}, {'id': 115, 'name': 'England Lions', 'isWomensTeam': False}, {'id': 927, 'name': 'London Spirit Men', 'isWomensTeam': False}, {'id': 1434, 'name': 'England Lions', 'isWomensTeam': False}]",True
+7009,Henry,Crocombe,Thomas,Henry Crocombe,England,,"[{'id': 1, 'name': 'England', 'isWomensTeam': False}, {'id': 35, 'name': 'Sussex', 'isWomensTeam': False}, {'id': 115, 'name': 'England Lions', 'isWomensTeam': False}, {'id': 927, 'name': 'London Spirit Men', 'isWomensTeam': False}, {'id': 1434, 'name': 'England Lions', 'isWomensTeam': False}]",True
 7010,Thilan,Walallawita,Nipuna,Thilan Walallawita,,,"[{'id': 38, 'name': 'Middlesex', 'isWomensTeam': False}]",False
 7011,Ajeet,Dale,Singh,Ajeet Singh Dale,,,"[{'id': 34, 'name': 'Gloucestershire', 'isWomensTeam': False}, {'id': 43, 'name': 'Hampshire', 'isWomensTeam': False}, {'id': 50, 'name': 'Lancashire', 'isWomensTeam': False}, {'id': 115, 'name': 'England Lions', 'isWomensTeam': False}, {'id': 925, 'name': 'Welsh Fire Men', 'isWomensTeam': False}]",False
 7012,Jack,White,,Jack White,,,"[{'id': 37, 'name': 'Northamptonshire', 'isWomensTeam': False}, {'id': 45, 'name': 'Yorkshire', 'isWomensTeam': False}]",True
@@ -8315,12 +8315,12 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 8629,Aphiwe,Mnyanda,,Aphiwe Mnyanda,,,"[{'id': 235, 'name': 'South Africa Under-19s', 'isWomensTeam': False}]",False
 8630,Aayan,Khan,Afzal,Aayan Afzal Khan,United Arab Emirates,,"[{'id': 111, 'name': 'United Arab Emirates', 'isWomensTeam': False}, {'id': 181, 'name': 'Montreal Tigers', 'isWomensTeam': False}, {'id': 638, 'name': 'United Arab Emirates Under 19s', 'isWomensTeam': False}, {'id': 839, 'name': 'UAE Bulls', 'isWomensTeam': False}, {'id': 1249, 'name': 'Gulf Giants', 'isWomensTeam': False}]",True
 8631,Vinayak,Raghavan,Vijaya,Vinny Vijaya,,,"[{'id': 582, 'name': 'Cardiff UCCE', 'isWomensTeam': False}, {'id': 638, 'name': 'United Arab Emirates Under 19s', 'isWomensTeam': False}]",False
-8632,Mohammad,Islam,Mahfijul,Mahfijul Islam,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
+8632,Mahfijul,Robin,,Mahfijul Islam Robin,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
 8633,Ariful,Islam,,Ariful Islam,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
-8634,Aich,Mollah,,Aich Mollah,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
+8634,Aich,Mollah,,Aich Mollah,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
 8635,Md,Fahim,,Md Fahim,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 8636,Abdullah,Al Mamun,,Abdullah Al Mamun,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 294, 'name': 'Bangladesh 6s', 'isWomensTeam': False}]",False
-8637,SM,Hasan,M Meherob,SM Meherob Hasan,Bangladesh,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 1383, 'name': 'Bangladesh A', 'isWomensTeam': False}]",True
+8637,SM,Hasan,M Meherob,SM Meherob Hasan,Bangladesh,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 1383, 'name': 'Bangladesh A', 'isWomensTeam': False}, {'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
 8638,Md,Zaman,Ashiqur,Ashiqur Zaman,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 8639,Naimur,Noyon,Rohman,Naimur Rohman,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 8640,Ripon,Mondol,,Ripon Mondol,Bangladesh,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 637, 'name': 'Bangladesh', 'isWomensTeam': False}, {'id': 1383, 'name': 'Bangladesh A', 'isWomensTeam': False}]",True
@@ -8365,7 +8365,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 8679,Siddh,Lad,,Siddh Lad,,,"[{'id': 227, 'name': 'Canada Under 19s', 'isWomensTeam': False}]",False
 8680,Garv,Sangwan,Anil,Garv Sangwan,,,"[{'id': 229, 'name': 'India Under-19s', 'isWomensTeam': False}]",False
 8681,Aneeshwar,Gautam,,Aneeshwar Gautam,,,"[{'id': 229, 'name': 'India Under-19s', 'isWomensTeam': False}, {'id': 288, 'name': 'Mangalore United', 'isWomensTeam': False}]",False
-8682,Iftakher,Ifti,Hossain,Iftakher Hossain,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
+8682,Iftakhar,Ifti,Hossain,Iftakhar Hossain Ifti,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
 8683,Gavin,Niblock,,Gavin Niblock,,,"[{'id': 227, 'name': 'Canada Under 19s', 'isWomensTeam': False}]",False
 8684,Nathan,Barnwell,Andre,Nathan Barnwell,England,,"[{'id': 48, 'name': 'Surrey', 'isWomensTeam': False}, {'id': 228, 'name': 'England Under-19s', 'isWomensTeam': False}]",True
 9684,Mohit,Prashar,,Mohit Prashar,,,"[{'id': 227, 'name': 'Canada Under 19s', 'isWomensTeam': False}]",False
@@ -8378,7 +8378,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 9691,Mohammad,Ali,,Shykat Ali,,,[],False
 9692,Luke,Whelan,Joseph,Luke Whelan,,,"[{'id': 230, 'name': 'Ireland Under 19s', 'isWomensTeam': False}]",False
 9693,Reuben,Wilson,Brian,Reuben Wilson,Ireland,,"[{'id': 5, 'name': 'Ireland', 'isWomensTeam': False}, {'id': 230, 'name': 'Ireland Under 19s', 'isWomensTeam': False}]",True
-9694,Kevin,Wickham,Omar,Kevin Wickham,West Indies,,"[{'id': 58, 'name': 'Barbados Tridents', 'isWomensTeam': False}, {'id': 237, 'name': 'West Indies Under 19s', 'isWomensTeam': False}, {'id': 1202, 'name': 'West Indies Academy', 'isWomensTeam': False}, {'id': 1321, 'name': 'Antigua & Barbuda Falcons', 'isWomensTeam': False}, {'id': 1451, 'name': 'St Kitts & Nevis Patriots', 'isWomensTeam': False}, {'id': 1465, 'name': 'West Indies Select XI', 'isWomensTeam': False}]",True
+9694,Kevin,Wickham,Omar,Kevin Wickham,West Indies,,"[{'id': 24, 'name': 'West Indies', 'isWomensTeam': False}, {'id': 58, 'name': 'Barbados Tridents', 'isWomensTeam': False}, {'id': 237, 'name': 'West Indies Under 19s', 'isWomensTeam': False}, {'id': 1202, 'name': 'West Indies Academy', 'isWomensTeam': False}, {'id': 1321, 'name': 'Antigua & Barbuda Falcons', 'isWomensTeam': False}, {'id': 1451, 'name': 'St Kitts & Nevis Patriots', 'isWomensTeam': False}, {'id': 1465, 'name': 'West Indies Select XI', 'isWomensTeam': False}]",True
 9695,Nathan,Edward,,Nathan Edward,,,"[{'id': 66, 'name': 'Trinbago Knight Riders', 'isWomensTeam': False}, {'id': 237, 'name': 'West Indies Under 19s', 'isWomensTeam': False}, {'id': 1452, 'name': 'Trinbago Knight Riders', 'isWomensTeam': False}]",True
 9696,Mohammad,Safi,Saleem,Mohammad Saleem,,,"[{'id': 6, 'name': 'Afghanistan', 'isWomensTeam': False}]",False
 9697,Asad,Zulfiqar,,Asad Zulfiqar,,,[],False
@@ -10210,7 +10210,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 11543,Pratish,Chhetri,Gharti,Pratish GC,,,"[{'id': 112, 'name': 'Nepal', 'isWomensTeam': False}, {'id': 1337, 'name': 'Nepal 6s', 'isWomensTeam': False}]",False
 11544,Neelam,Bisht,,Neelam Bisht,,,[],False
 11545,Saika,Ishaque,Mohamad,Saika Ishaque,,,"[{'id': 76, 'name': 'India Women', 'isWomensTeam': False}, {'id': 650, 'name': 'India A Women', 'isWomensTeam': True}, {'id': 1261, 'name': 'England Disability Black Cats', 'isWomensTeam': False}]",False
-11546,Jintimani,Kalita,Nakul,Jintimani Kalita,,,"[{'id': 1261, 'name': 'England Disability Black Cats', 'isWomensTeam': False}, {'id': 1439, 'name': 'India A Women', 'isWomensTeam': True}]",True
+11546,Jintimani,Kalita,Nakul,Jintimani Kalita,,,"[{'id': 76, 'name': 'India Women', 'isWomensTeam': False}, {'id': 1261, 'name': 'England Disability Black Cats', 'isWomensTeam': False}, {'id': 1439, 'name': 'India A Women', 'isWomensTeam': True}]",True
 11547,Dhara,Gujjar,Vijay,Dhara Gujjar,,,"[{'id': 650, 'name': 'India A Women', 'isWomensTeam': True}, {'id': 1261, 'name': 'England Disability Black Cats', 'isWomensTeam': False}]",False
 11548,Priyanka,Bala,Prankrishna,Priyanka Bala,,,"[{'id': 1261, 'name': 'England Disability Black Cats', 'isWomensTeam': False}]",False
 11549,Humaira,Kaazi,Yusufamir,Humaira Kaazi,,,"[{'id': 1261, 'name': 'England Disability Black Cats', 'isWomensTeam': False}]",False
@@ -10266,7 +10266,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 11599,Harrison,Weir,,Harrison Weir,,,[],False
 11600,Matthew,Wilson,,Matthew Wilson,,,[],False
 11601,Charlie,Ross,,Charlie Ross,,,[],False
-11602,Jack,Montgomery,,Jack Montgomery,,,"[{'id': 85, 'name': 'Tasmanian Tigers', 'isWomensTeam': False}]",True
+11602,John,Montgomery,,John Montgomery,,,"[{'id': 85, 'name': 'Tasmanian Tigers', 'isWomensTeam': False}]",True
 11603,Sahan,Mihira,,Sahan Mihira,,,[],False
 11604,Luke,Benaquista,,Luke Benaquista,,,[],False
 11605,Abisheak,Liyanaarachchi,,Abisheak Liyanaarachchi,,,[],False
@@ -10977,7 +10977,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 12311,Grace,Hall,Elisabeth,Grace Hall,England,,"[{'id': 1064, 'name': 'Northern Diamonds', 'isWomensTeam': False}, {'id': 1350, 'name': 'Yorkshire Women', 'isWomensTeam': True}, {'id': 1437, 'name': 'Leicestershire Foxes Women', 'isWomensTeam': False}]",True
 13730,Nathan,Fernandes,,Nathan Fernandes,England,,"[{'id': 38, 'name': 'Middlesex', 'isWomensTeam': False}]",True
 13731,Noah,Croes,Roderick Joseph,Noah Croes,Netherlands,Men,"[{'id': 213, 'name': 'Netherlands', 'isWomensTeam': False}]",True
-13732,Michael,Levitt,,Michael Levitt,,,"[{'id': 213, 'name': 'Netherlands', 'isWomensTeam': False}]",False
+13732,Michael,Levitt,,Michael Levitt,,,"[{'id': 213, 'name': 'Netherlands', 'isWomensTeam': False}]",True
 13733,Rahul,Iyyappan,,Rahul Iyyappan,,,[],False
 13734,I,Vetrivel,,I Vetrivel,,,[],False
 13735,S,Ali,Mohamed,Mohamed Ali,,,"[{'id': 1129, 'name': 'Tiruppur Tamizhans', 'isWomensTeam': False}]",False
@@ -11176,7 +11176,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 13929,Tom,Menzies,,Tom Menzies,Australia,,"[{'id': 80, 'name': 'Cricket Australia XI', 'isWomensTeam': False}, {'id': 225, 'name': 'Australia Under-19s', 'isWomensTeam': False}, {'id': 1488, 'name': 'NT Strike', 'isWomensTeam': False}]",True
 13930,Ryan,Hicks,R,Ryan Hicks,Australia,Men,"[{'id': 80, 'name': 'Cricket Australia XI', 'isWomensTeam': False}, {'id': 225, 'name': 'Australia Under-19s', 'isWomensTeam': False}, {'id': 674, 'name': 'New South Wales', 'isWomensTeam': False}]",True
 13931,Sam,Konstas,,Sam Konstas,Australia,Men,"[{'id': 23, 'name': 'Australia', 'isWomensTeam': False}, {'id': 64, 'name': 'Australia A', 'isWomensTeam': False}, {'id': 78, 'name': ""Prime Minister's XI"", 'isWomensTeam': False}, {'id': 80, 'name': 'Cricket Australia XI', 'isWomensTeam': False}, {'id': 107, 'name': 'Sydney Thunder', 'isWomensTeam': False}, {'id': 225, 'name': 'Australia Under-19s', 'isWomensTeam': False}, {'id': 674, 'name': 'New South Wales', 'isWomensTeam': False}]",True
-13932,Corey,Wasley,K,Corey Wasley,Australia,Men,"[{'id': 225, 'name': 'Australia Under-19s', 'isWomensTeam': False}]",True
+13932,Corey,Wasley,K,Corey Wasley,Australia,Men,"[{'id': 83, 'name': 'Western Australia', 'isWomensTeam': False}, {'id': 225, 'name': 'Australia Under-19s', 'isWomensTeam': False}]",True
 13933,Cameron,Frendo,N,Cameron Frendo,,,"[{'id': 225, 'name': 'Australia Under-19s', 'isWomensTeam': False}]",False
 13934,Patrick,Gouge,Bartholomew,Patrick Gouge,,,"[{'id': 751, 'name': 'Jersey', 'isWomensTeam': False}]",False
 13935,Henry,Rogers,P,Henry Rogers,,,"[{'id': 35, 'name': 'Sussex', 'isWomensTeam': False}, {'id': 228, 'name': 'England Under-19s', 'isWomensTeam': False}]",False
@@ -11981,9 +11981,9 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 14734,Mohammad,James,Shihab,Shihab James,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 14735,Mohammad,Uzzaman,Rafi,Rafi Uzzaman,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 14736,Sheikh,Parvez,,Sheikh Parvez Jibon,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
-14737,Jishan,Alam,,Jishan Alam,Bangladesh,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 294, 'name': 'Bangladesh 6s', 'isWomensTeam': False}, {'id': 1383, 'name': 'Bangladesh A', 'isWomensTeam': False}]",True
+14737,Jishan,Alam,,Jishan Alam,Bangladesh,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 294, 'name': 'Bangladesh 6s', 'isWomensTeam': False}, {'id': 1383, 'name': 'Bangladesh A', 'isWomensTeam': False}, {'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
 14738,Rohanat,Doullah,,Rohanat Doullah,Bangladesh,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 1383, 'name': 'Bangladesh A', 'isWomensTeam': False}]",True
-14739,Mohammad,Chowdhury,Rizwan,Rizwan Chowdhury,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
+14739,Chowdhury,Rizwan,,Chowdhury Rizwan,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
 14740,Ahrar,Amin,,Ahrar Amin,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 14741,Ashiqur,Rahman,,Ashiqur Rahman,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 14742,Wasi,Siddiquee,,Wasi Siddiquee,,,[],False
@@ -14166,7 +14166,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 16919,Mohammad,Hossan,Rizan,Rizan Hossan,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 16920,Mohammad,Fahad,Al,Al Fahad,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 16921,Mohammad,Faysal,Farid Hasan,Farid Hasan Faysal,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
-16922,Kalam,Aleen,Siddiki,Kalam Siddiki Aleen,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
+16922,Kalam,Aleen,Siddiki,Kalam Siddiki Aleen,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}, {'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
 16923,Sanjid,Mozumder,,Sanjid Mozumder,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 16924,Shahriar,Al-Amin,,Shahriar Al-Amin,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
 16925,Farzan,Alif,Ahmed,Farzan Ahmed Alif,,,"[{'id': 226, 'name': 'Bangladesh Under 19s', 'isWomensTeam': False}]",False
@@ -18502,7 +18502,7 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 21267,Ishan,Om,,Ishan Om,,,"[{'id': 229, 'name': 'India Under-19s', 'isWomensTeam': False}]",True
 21268,Ramveer,Gurjar,,Ramveer Singh Gurjar,,,[],False
 21269,Cooper,Rowell,,Cooper Rowell,,,[],False
-21270,Jordan,Quiggin,,Jordan Quiggin,,,"[{'id': 83, 'name': 'Western Australia', 'isWomensTeam': False}]",True
+21270,Jordan,Quiggin,,Jordan Quiggin,Australia,Men,"[{'id': 83, 'name': 'Western Australia', 'isWomensTeam': False}]",True
 21271,Tim,Saulez,,Tim Saulez,,,[],False
 21272,Samuel,Topping,,Sam Topping,,,[],False
 21273,Mir,Sajjad,,Hamza Sajjad,,,[],False
@@ -19483,3 +19483,18 @@ id,firstName,lastName,middleName,displayName,nationality,gender,teams,isActive
 22248,,,,Player 67376,,,[],True
 22249,,,,Player 72525,,,[],True
 22250,,,,Player 69801,,,[],True
+22251,Fahad,Hossain,,Fahad Hossain,,,"[{'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
+22252,Anik,Barman,,Anik Deb Barman,,,"[{'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
+22253,,,,Player 23447,,,[],True
+22254,,,,Player 27763,,,[],True
+22255,,,,Player 57744,,,[],True
+22256,,,,Player 90990,,,[],True
+22257,,,,Player 90980,,,[],True
+22258,Afif,Sun,,Afif Jaman Sun,,,"[{'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
+22259,MD,Hossain,,MD Hossain,,,"[{'id': 1516, 'name': 'Bangladesh Cricket Board XI', 'isWomensTeam': False}]",True
+22260,Matt,Hennig,,Matt Hennig,Australia,Men,"[{'id': 82, 'name': 'Victoria', 'isWomensTeam': False}]",True
+22261,,,,Player 102989,,,[],True
+22262,,,,Player 91006,,,[],True
+22263,,,,Player 90993,,,[],True
+22264,,,,Player 27666,,,[],True
+22265,,,,Player 51318,,,[],True
